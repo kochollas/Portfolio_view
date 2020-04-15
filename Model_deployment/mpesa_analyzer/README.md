@@ -2,13 +2,17 @@
 The application can be deployed on AWS EC2 linux instance or shiny sever pro 
 
 ### Prerequisites
-You must have the following R packages 
+#### Shiny Dependencies
+You must have the following R packages installed on your server instance
 library(stringr)
 library(pdftools)
 library(rebus)
 library(dplyr)
 library(ggplot2)
 library(highcharter)
+#### Linux Dependencies
+libcurl4-openssl-dev 
+libpoppler-cpp-dev
 
 ```
 ui.R
