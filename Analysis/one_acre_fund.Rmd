@@ -1,0 +1,59 @@
+---
+title: "One Acre Fund Interview"
+author: "Mike Kocholla"
+date: "10/31/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# SMS Impact Analysis on Kenyan Farmers uptake of 1AF program
+## Descriptive Analysis
+
+```{r echo=T, comment=F ,warning=FALSE, message=FALSE}
+#Read the dataset
+kenyan_farmers<-read.csv("~/Documents/GDA_ExerciseData_Sept2019.csv")
+head(kenyan_farmers)
+names(kenyan_farmers)
+nrow(kenyan_farmers)# Total rows in the raw data set
+#summary(kenyan_farmers)
+```
+
+## Filter out rows for farmers who qualified before Trial
+```{r echo=T, comment=F ,warning=FALSE, message=FALSE}
+#Need to filter out farmers who qualified before trial.QBT(qualified Before Trials)
+library(dplyr)
+kenyan_farmers_minus_QBT<-kenyan_farmers%>%filter(QualifiedBeforeTrial==0)
+nrow(kenyan_farmers_minus_QBT) # data to be used for impact analysis
+```
+## Testing the relationship between main treatment and qualification
+
+```{r echo=T, comment=F ,warning=FALSE, message=FALSE}
+table1<-table(kenyan_farmers_minus_QBT$Qualified,kenyan_farmers_minus_QBT$MainTreatment)
+round(prop.table(table1, 2)*100,2)
+```
+#### The above results shows that other treatment(sms) performed better than others in qualifying a farmer. To confirm if this is statistically significance further test were carried out.
+
+## Testing for statistical significance
+```{r echo=T, comment=F ,warning=FALSE, message=FALSE}
+test1<-chisq.test(kenyan_farmers_minus_QBT$Qualified,kenyan_farmers_minus_QBT$MainTreatment)
+options(scipen = 999)
+test1
+```
+
+#### The above statistical test shows that the relatioship between treatments and qualification is significant. We therefore recommend treatments that have 65% chance of qualifying a farmer to be applied together for maximum effect.
+
+# 2. A Logistic Regression Approach - Classification of a farmers likelihood of qualification based on our covariates.
+
+```{r echo=T, comment=F ,warning=FALSE, message=FALSE}
+# fit a logistic regression model
+mod1<-glm(Qualified~MentionedDeadline+RemainingAmount+LastReminder, data=kenyan_farmers_minus_QBT, family = "binomial")
+mod2<-glm(Qualified~MainTreatment, data=kenyan_farmers_minus_QBT, family = "binomial")
+summary(mod1)
+summary(mod2)
+```
+#### From model 2 fitting main treatment variables showed accepted p-values for confirming our results from the first method. Best treatment combination here would be T1,T2,T3 and T5. T6 here is not statistically significant hence left out.
+
+#### From model 1 fitting the cross randomized variables showed a non significant result from the p-values. 
+

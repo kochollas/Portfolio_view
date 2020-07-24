@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Predicted{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h2>Loan Amount Prediction </h2>
+    <p class="important">
+      The application is used for predicting amount loanable to a client based on Mpesa Transactions.
+    </p>
+  
+    <br>
+    <h3>Predicted Loan Amount.</h3>
+    <br>
+    {{ prediction_text }}
+    <br>
+    <br>
+{% endblock %}
+

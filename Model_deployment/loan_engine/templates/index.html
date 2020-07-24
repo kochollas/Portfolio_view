@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h2>Loan Amount Prediction </h2>
+    <p class="important">
+      The application is used for predicting amount loanable to a client based on Mpesa Transactions.
+    </p>
+    <br>
+    Upload Mpesa pdf File:
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      PDF password:
+      <input type =password name=pass placeholder=National-Id>
+      <input type=submit value='Upload and Predict'>
+    </form>
+    
+    <br>
+{% endblock %}
+
