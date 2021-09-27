@@ -22,5 +22,7 @@ By default, flask will run on port 5000.
 3. Navigate to URL http://localhost:5000
 
 You should be able to view the homepage as below :
-![alt text](https://github.com/[kochollas]/[portfolio]/blob/[main]/loan_prediction_app.jpg?raw=true)
+![alt text](https://github.com/[kochollas]/[Portfolio_view/Model_deployment/loan_engine/]/blob/[main]/loan_prediction_app.jpg?raw=true)
+
+
 
