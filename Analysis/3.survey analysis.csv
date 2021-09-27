@@ -1,0 +1,172 @@
+,SECTION A,,
+,,,
+1,secA_q2,Freq,Percentage
+2,Male,845,40.16
+3,Female,1259,59.84
+4,***** , *****, *****
+1,secA_q3,Freq,Percentage
+2,Female,1259,59.84
+3,Male,814,38.69
+4,Transgender,14,0.67
+5,"Do not identify as female, male, or transgender",10,0.48
+6,Prefer not to answer,7,0.33
+7,***** , *****, *****
+1,consent_given,Freq,Percentage
+2,Yes,2104,99.86
+3,No,3,0.14
+4,***** , *****, *****
+1,selected_region,Freq,Percentage
+2,North Eastern,72,3.42
+3,Coast,159,7.56
+4,Upper Eastern,82,3.9
+5,Rift - Valley,208,9.89
+6,South Rift,206,9.79
+7,Western,217,10.31
+8,Nyanza,519,24.67
+9,Central,198,9.41
+10,Lower Eastern,108,5.13
+11,Nairobi,335,15.92
+12,***** , *****, *****
+1,selected_county,Freq,Percentage
+2,Trans-Nzoia,44,2.09
+3,Bomet,25,1.19
+4,Nandi,14,0.67
+5,Kwale,27,1.28
+6,Kajiado,46,2.19
+7,Kakamega,90,4.28
+8,Turkana,26,1.24
+9,Kitui,32,1.52
+10,Kiambu,89,4.23
+11,Starehe,62,2.95
+12,Makadara,25,1.19
+13,Elgeyo-Marakwet,18,0.86
+14,Westlands,31,1.47
+15,Samburu,18,0.86
+16,Marsabit,15,0.71
+17,Meru,35,1.66
+18,Laikipia,11,0.52
+19,Nyeri,30,1.43
+20,Kisumu,120,5.7
+21,Kilifi,34,1.62
+22,Baringo,22,1.05
+23,Kirinyaga,17,0.81
+24,Embakasi,105,4.99
+25,Tana River,14,0.67
+26,Isiolo,19,0.9
+27,Homa Bay,138,6.56
+28,Garissa,14,0.67
+29,Kamkunji,1,0.05
+30,Siaya,122,5.8
+31,Vihiga,33,1.57
+32,Nyandarua,17,0.81
+33,Kisii,22,1.05
+34,Langata,45,2.14
+35,Wajir,12,0.57
+36,Mandera,12,0.57
+37,Mombasa,58,2.76
+38,Uasin Gishu,44,2.09
+39,Dagoretti,43,2.04
+40,Lamu,14,0.67
+41,Kasarani,23,1.09
+42,Muranga,45,2.14
+43,Bungoma,38,1.81
+44,Narok,26,1.24
+45,Taita–Taveta,12,0.57
+46,Nyamira,33,1.57
+47,Tharaka-Nithi,24,1.14
+48,Busia,56,2.66
+49,Migori,84,3.99
+50,Nakuru,71,3.37
+51,Machakos,40,1.9
+52,Embu,23,1.09
+53,Makueni,36,1.71
+54,West Pokot,22,1.05
+55,Kericho,27,1.28
+56,***** , *****, *****
+1,network,Freq,Percentage
+2,NEPHAK,1386,65.87
+3,Other Networks,423,20.1
+4,None,295,14.02
+5,***** , *****, *****
+1,secA_q2,Freq,Percentage
+2,Male,845,40.16
+3,Female,1259,59.84
+4,***** , *****, *****
+1,secA_q3,Freq,Percentage
+2,Female,1259,59.84
+3,Male,814,38.69
+4,Transgender,14,0.67
+5,"Do not identify as female, male, or transgender",10,0.48
+6,Prefer not to answer,7,0.33
+7,***** , *****, *****
+1,secA_q5,Freq,Percentage
+2,Yes,1440,68.44
+3,No,664,31.56
+4,***** , *****, *****
+1,secA_q6,Freq,Percentage
+2,"Yes, my partner(s) is also HIV-positive",838,58.19
+3,"No, my partner(s) is not HIV-positive",410,28.47
+4,Unsure about the HIV status of my partner(s),192,13.33
+5,***** , *****, *****
+1,secA_q8,Freq,Percentage
+2,Yes,195,9.27
+3,No,1909,90.73
+4,***** , *****, *****
+1,secA_q9,Freq,Percentage
+2,No formal education,147,6.99
+3,Primary/elementary/local equivalent,762,36.22
+4,Secondary/high school/local equivalent,790,37.55
+5,Trade/vocational school,139,6.61
+6,University/tertiary education,266,12.64
+7,***** , *****, *****
+1,secA_q10,Freq,Percentage
+2,In full-time work (as an employee),208,9.89
+3,In part-time work (as an employee),260,12.36
+4,"Working full-time, but not as an employee (self-employed or business owner)",295,14.02
+5,Doing casual or part-time work (self-employed or paid work for others),597,28.37
+6,Unemployed,744,35.36
+7,***** , *****, *****
+1,secA_q11,Freq,Percentage
+2,Never,333,15.83
+3,Some of the time,1373,65.26
+4,Most of the time,398,18.92
+5,***** , *****, *****
+1,secA_q12a,Freq,Percentage
+2,Yes,461,21.91
+3,No,1610,76.52
+4,Prefer not to answer,33,1.57
+5,***** , *****, *****
+1,secA_q12b,Freq,Percentage
+2,Yes,95,4.52
+3,No,1958,93.06
+4,Prefer not to answer,51,2.42
+5,***** , *****, *****
+1,secA_q12c,Freq,Percentage
+2,Yes,137,6.51
+3,No,1931,91.78
+4,Prefer not to answer,36,1.71
+5,***** , *****, *****
+1,secA_q12d,Freq,Percentage
+2,Yes,12,0.57
+3,No,2048,97.34
+4,Prefer not to answer,44,2.09
+5,***** , *****, *****
+1,secA_q12e,Freq,Percentage
+2,Yes,33,1.57
+3,No,2026,96.29
+4,Prefer not to answer,45,2.14
+5,***** , *****, *****
+1,secA_q12f,Freq,Percentage
+2,Yes,52,2.47
+3,No,2008,95.44
+4,Prefer not to answer,44,2.09
+5,***** , *****, *****
+1,secA_q12g,Freq,Percentage
+2,Yes,39,1.85
+3,No,2020,96.01
+4,Prefer not to answer,45,2.14
+5,***** , *****, *****
+1,secA_q13,Freq,Percentage
+2,Yes,1327,63.07
+3,No,777,36.93
+4,***** , *****, *****

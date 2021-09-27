@@ -1,0 +1,798 @@
+---
+title: "Report on Matt Data Request"
+author: "Simply Eloped"
+date: "July 30, 2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+```{r setup, include=FALSE}
+#: #fe6f48
+knitr::opts_chunk$set(echo = TRUE)
+# Read in the venues data
+library(ggplot2)
+library(dplyr)
+library(lubridate)
+library(sqldf)
+customers2 <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/customers_red.csv")
+customers2$booked_from <- factor(customers2$booked_from)
+customers2$weekday = weekdays(as.Date(customers2$created_at))
+
+customers2$Time = substr(customers2$created_at, 12,13)
+customers2$month <- lubridate::month(customers2$created_at)
+
+```
+
+
+## Key Concerns
+
+* What are the differences you see amongst the customers who autobook vs book using the sales team?
+
+Note : Data used is from 1st jan 2021 to 30 july 2021
+
+
+
+```{r echo=FALSE}
+
+paste("Unique customers",nrow(distinct(customers2, id, .keep_all = TRUE)))
+
+
+customer_time = "Customers who autobook vs sales team"
+
+ggplot(customers2, aes(x = guest_no, fill = booked_from)) +
+geom_bar(position = "dodge")+labs(title = paste(customer_time,sep=" by"," guest number"), x= "Number of guests", y="Customers count")
+
+
+```
+
+
+```{}
+Number of guest 5 and 10 is more common among customers who autobook than those acquired through sales
+```
+
+```{r , echo=FALSE}
+ ggplot(customers2, aes(x = weekday, fill = booked_from)) +
+geom_bar(position = "dodge")+labs(title = paste(customer_time,sep=" by"," weekday") , y="Customers  count")
+paste("Proportions(%) of customer interaction daily on the page")
+round(prop.table(table(customers2$weekday))*100,2)
+```
+
+```{}
+No much significant differences for various weekdays in terms of sales/autobooked customers
+```
+
+
+```{r , echo=FALSE}
+ggplot(customers2, aes(x = month, fill = booked_from)) +
+geom_bar(position = "dodge")+labs(title = customer_time, x= "Month of the Year(3 = March ...)", y="Customers interaction count")
+paste("Proportions(%) of customer interaction monthly on the page")
+round(prop.table(table(customers2$month))*100,2)
+
+
+customers2$booked_from <- ifelse(customers2$booked_from =="Sales involved", 1,2)
+
+```
+
+
+```{}
+Autobookings picked well in March
+```
+
+
+**Hear_about_us(Has open ended text of how customers got to know simplyelpoed)**
+
+
+```{r, echo=FALSE, warning=FALSE}
+library(wordcloud)
+library(RColorBrewer)
+# create a corpus of text
+library(tm)
+sales <-subset(customers2, booked_from ==1)
+text_sales <- sales$hear_about_us
+# Create a corpus  
+docs <- Corpus(VectorSource(text_sales))
+
+
+docs <- docs %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace)
+docs <- tm_map(docs, content_transformer(tolower))
+docs <- tm_map(docs, removeWords, stopwords("english"))
+#words count/frequencies
+dtm <- TermDocumentMatrix(docs) 
+matrix <- as.matrix(dtm) 
+words <- sort(rowSums(matrix),decreasing=TRUE) 
+df <- data.frame(word = names(words),freq=words)
+
+paste("Hear_about_us filtered by customers acquired through sales")
+wordcloud(words = df$word, freq = df$freq, min.freq = 1,max.words=200, random.order=FALSE, rot.per=0.35,colors=brewer.pal(8, "Dark2"))
+
+```
+
+
+**Hear_about_us filtered by customers acquired through autobooking**
+
+```{r, echo=FALSE, warning=FALSE}
+library(wordcloud)
+library(RColorBrewer)
+# create a corpus of text
+library(tm)
+sales <-subset(customers2, booked_from ==2)
+text_sales <- sales$hear_about_us
+# Create a corpus  
+docs <- Corpus(VectorSource(text_sales))
+
+
+docs <- docs %>%
+  tm_map(removeNumbers) %>%
+  tm_map(removePunctuation) %>%
+  tm_map(stripWhitespace)
+docs <- tm_map(docs, content_transformer(tolower))
+docs <- tm_map(docs, removeWords, stopwords("english"))
+#words count/frequencies
+dtm <- TermDocumentMatrix(docs) 
+matrix <- as.matrix(dtm) 
+words <- sort(rowSums(matrix),decreasing=TRUE) 
+df <- data.frame(word = names(words),freq=words)
+
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 1,max.words=200, random.order=FALSE, rot.per=0.35,colors=brewer.pal(8, "Dark2"))
+
+```
+
+```{}
+From the two word cloud of hear about us the large word images occur more frequently from the text submitted by customers on how they got to hear about simply eloped.
+```
+
+###what page they entered the site through
+```{r, echo=F, warning=F}
+leads2 <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/leads_red.csv")
+customers_fc <- sqldf("select fc_landing_page from leads2 where id in (select lead_id from customers2)")
+fc_df <- data.frame(round(prop.table(table(customers_fc$fc_landing_page))*100,2))
+fc_df2 <- fc_df[order(-fc_df$Freq), ]
+colnames(fc_df2) <- c("First Click landing page url", "% of customers")
+paste("Top 10 landing pages for leads who eventually became customers")
+head(fc_df2, 10)
+```
+
+###what page they became a lead on (referred to as Lead Page)
+
+```{r, echo=F, warning=F}
+leads2 <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/leads_red.csv")
+customers_lead_page <- sqldf("select lead_page from leads2 where id in (select lead_id from customers2)")
+lp_df <- data.frame(round(prop.table(table(customers_lead_page$lead_page))*100,2))
+lp_df2 <- lp_df[order(-lp_df$Freq), ]
+colnames(lp_df2) <- c("Lead page url", "% of customers")
+paste("Top 10 lead pages for customers")
+head(lp_df2, 10)
+```
+
+
+
+
+###What step they got to in our booking process
+
+```{}
+Table below shows a customer/lead transtion states from new lead(where a bigger part of them remain) going downwards until the invoice paid state.
+```
+
+
+```{r, echo=F}
+cs_customers<- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/cs_customers.csv")
+df1 <- data.frame(table(cs_customers$status))
+df2 <- data.frame(table(cs_customers$status,cs_customers$step))
+colnames(df2)<-c("status","step","customers")
+df3 <- df2[order(df2$status), ]
+df4 <- subset(df3, customers > 0)
+df4$proportions <- round(df4$customers/sum(df4$customers)*100,2)
+df4$customers_state <- c("New lead", "Package selected", "Venue and Date selected","Deposit paid", "Venue confirmed", "More info", "Contract signed",
+                         "Addons chosen","Flower chosen", "Invoice pending", "Invoice ready"
+                         ,"Invoice paid")
+
+
+df4
+
+
+# Drawing a heat map
+
+
+
+```
+
+
+
+
+## Contacts/Users that never got a Quote
+
+```{r , echo=FALSE}
+#: #fe6f48
+#knitr::opts_chunk$set(echo = TRUE)
+# Read in the venues data
+library(ggplot2)
+library(dplyr)
+customers <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/no_quote.csv")
+
+customers$Time = substr(customers$created_at, 12,13)
+customers$weekday = weekdays(as.Date(customers$created_at))
+
+
+customers$has_wedding_date = ifelse(customers$date == "", 0, 1)
+customers$has_wedding_month = ifelse(customers$type == "month", 1, 0)
+customers$month <- lubridate::month(customers$created_at)
+
+
+customers$has_changed_date = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      customers[i,c("has_changed_date")] <- 1
+    }
+    else{
+      customers[i,c("has_changed_date")] <- 0
+    }
+  }
+}
+
+
+```
+
+
+## Key Concerns
+
+* Which data they consumed on the venue page -
+* How many quotes that get
+* Do they switch dates
+* Do they switch venues
+* Number of guests
+* Number of results from Venue finder
+* Time of day / day of week
+
+
+Note that we have unique users count and users interaction count(this one can be multiple times) 
+
+
+**1. Users interaction with the venue page**(Link:<https://reserve.simplyeloped.com/venue-finder>.)
+
+
+```{r echo=FALSE}
+paste("Non unique users interaction",nrow(customers))
+paste("Unique users interaction",nrow(distinct(customers, id, .keep_all = TRUE)))
+
+
+customer_time = "Users interaction with Venue page"
+
+ggplot(customers, aes(x = month)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Month of the Year(3 = March ...)", y="Users interaction count")
+
+paste("Proportions(%) of Users interaction monthly on the page")
+round(prop.table(table(customers$month))*100,2)
+```
+
+
+```{}
+Observation:
+
+The interaction with the page for Users since March: 
+
+
+```
+
+
+
+#### a) Interaction time with the page
+
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = Time)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Hour of the Day( 5 : 5am ... 20:8PM)", y="Customers interaction count")
+paste("Proportions(%) of Users interaction hourly on the page")
+round(prop.table(table(customers$Time))*100,2)
+```
+
+```{}
+Observation
+
+Highest interaction hrs at 1pm and 8pm
+
+
+
+
+```
+
+
+
+```{r , echo=FALSE}
+ ggplot(customers, aes(x = weekday)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, y="Users interaction count")
+paste("Proportions(%) of Users interaction daily on the page")
+round(prop.table(table(customers$weekday))*100,2)
+```
+
+```{}
+Observation
+Monday seems to have more interaction.
+
+
+```
+
+
+#### b) Proportions(%) of Users who set the full wedding date on the page(The exact date)
+
+```{r , echo=FALSE}
+round(mean(customers$has_wedding_date)*100 ,2)
+```
+
+#### c) Proportions(%) of users who set only month of wedding(The month)
+
+```{r , echo=FALSE}
+round(mean(customers$has_wedding_month)*100 , 2)
+```
+
+
+#### d) Number of guest picked on the venue page by users
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = guest_no)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Number of guests", y="Users interaction count")
+
+paste("Proportions(%) of users and guests chosen")
+round(prop.table(table(customers$guest_no))*100,2)
+```
+
+
+```{}
+More users picked not sure yet and just two of us 
+```
+
+#### e) Total matched venues by location type
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = total_matched_venues, fill= location_type)) +
+geom_bar()+labs(title = customer_time, x= "Total matched venues", y="Users interaction count")
+paste("Proportions(%) of location Types")
+round(prop.table(table(customers$location_type))*100, 2)
+```
+
+```{}
+Observation
+
+Inspiration has more matched venues but most of the users go for market as location type(86%). Inspiration explains 14% 
+
+
+```
+
+
+
+
+**2. Do they switch dates**
+
+YES they change dates
+
+#### Unique Users who changed their wedding date on the page
+
+```{r, echo=FALSE}
+unique_cust = distinct(customers, id, .keep_all = TRUE)
+val = mean(unique_cust$has_changed_date, na.rm = T)
+paste(round(val,2)*100,sep = "","%")
+```
+
+
+
+
+```{r, echo=F}
+#days difference for those who switch dates
+customers <- subset(customers, date != "")
+customers$changed_date_max = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      dmax =max(df$date)
+      dmin =min(df$date)
+      customers[i,c("changed_date_max")] <- dmax
+    }
+    else{
+      customers[i,c("changed_date_max")] <- 0
+    }
+  }
+}
+
+
+
+customers$changed_date_min = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      dmax =max(df$date)
+      dmin =min(df$date)
+      customers[i,c("changed_date_min")] <-dmin
+    }
+    else{
+      customers[i,c("changed_date_min")] <- 0
+    }
+  }
+}
+
+
+customers$changed_date_min = ifelse(customers$changed_date_min=="0", NA, customers$changed_date_min)
+customers$changed_date_min = as.Date(customers$changed_date_min)
+
+customers$changed_date_max = ifelse(customers$changed_date_max=="0", NA, customers$changed_date_max)
+customers$changed_date_max = as.Date(customers$changed_date_max)
+
+customers$changed_date_days <- customers$changed_date_max - customers$changed_date_min
+
+
+x=min(customers$changed_date_days, na.rm=T)
+y=mean(customers$changed_date_days, na.rm=T)
+z=max(customers$changed_date_days, na.rm=T)
+
+paste("Minimum number of days",sep = ":-",x )
+paste("Average number of days",sep = ":-",y)
+#paste("Maximum number of days",sep = ":-",z)
+```
+
+```{}
+Observation
+
+The average number of days between the initial and new date on the page is approximately 8months
+
+
+```
+
+**3. Do they switch venues**
+
+YES They change venues
+
+```{r, echo=F}
+customers$has_changed_venue = 0
+customers1 = subset(customers, location_type == "inspiration")
+N = nrow(customers1)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers1, id == customers1[i,c("id")])
+    if(length(unique(df$tag_ids)) > 1){
+      customers1[i,c("has_changed_venue")] <- 1
+    }
+    else{
+      customers1[i,c("has_changed_venue")] <- 0
+    }
+  }
+}
+
+
+customers$has_changed_venue = 0
+customers2 = subset(customers, location_type == "market")
+N = nrow(customers2)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers2, id == customers2[i,c("id")])
+    if(length(unique(df$market_id)) > 1){
+      customers2[i,c("has_changed_venue")] <- 1
+    }
+    else{
+      customers2[i,c("has_changed_venue")] <- 0
+    }
+  }
+}
+
+insp = round(mean(customers1$has_changed_venue)*100,2)
+paste("location Type : Inspiration, proportion(%) of Users change venues",sep = ":",insp )
+
+mark = round(mean(customers2$has_changed_venue)*100,2)
+paste("location Type: Market, proportion(%) of Users change venues",sep = ":",mark )
+
+```
+
+
+## Contacts/Users that got Quote 3 weeks ago but never became Customer
+
+```{r, echo=FALSE}
+# THIRD REPORT
+#: #fe6f48
+knitr::opts_chunk$set(echo = TRUE)
+# Read in the venues data
+library(ggplot2)
+library(dplyr)
+#customers <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/no_quote.csv")
+customers <- read.csv("~/Documents/upwork/SimplyEloped/Mongodb/quote_no_customer.csv")
+
+customers$Time = substr(customers$created_at, 12,13)
+customers$weekday = weekdays(as.Date(customers$created_at))
+
+
+customers$has_wedding_date = ifelse(customers$date == "", 0, 1)
+customers$has_wedding_month = ifelse(customers$type == "month", 1, 0)
+customers$month <- lubridate::month(customers$created_at)
+
+
+customers$has_changed_date = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      customers[i,c("has_changed_date")] <- 1
+    }
+    else{
+      customers[i,c("has_changed_date")] <- 0
+    }
+  }
+}
+
+
+```
+
+
+## Key Concerns
+
+* Which data they consumed on the venue page -
+* How many quotes that get
+* Do they switch dates
+* Do they switch venues
+* Number of guests
+* Number of results from Venue finder
+* Time of day / day of week
+
+
+Note that we have unique users count and users interaction count(this one can be multiple times) 
+
+
+**1. Users interaction with the venue page**(Link:<https://reserve.simplyeloped.com/venue-finder>.)
+
+
+```{r echo=FALSE}
+paste("Non unique users interaction",nrow(customers))
+paste("Unique users interaction",nrow(distinct(customers, id, .keep_all = TRUE)))
+
+
+customer_time = "Users interaction with Venue page"
+
+ggplot(customers, aes(x = month)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Month of the Year(3 = March ...)", y="Users interaction count")
+
+paste("Proportions(%) of Users interaction monthly on the page")
+round(prop.table(table(customers$month))*100,2)
+```
+
+
+```{}
+Observation:
+
+The interaction with the page for Users since March: 
+
+
+```
+
+
+
+#### a) Interaction time with the page
+
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = Time)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Hour of the Day( 5 : 5am ... 20:8PM)", y="Customers interaction count")
+paste("Proportions(%) of Users interaction hourly on the page")
+round(prop.table(table(customers$Time))*100,2)
+```
+
+```{}
+Observation
+
+Highest interaction hrs at 1pm and 8pm
+
+
+
+
+```
+
+
+
+```{r , echo=FALSE}
+ ggplot(customers, aes(x = weekday)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, y="Users interaction count")
+paste("Proportions(%) of Users interaction daily on the page")
+round(prop.table(table(customers$weekday))*100,2)
+```
+
+```{}
+Observation
+Monday seems to have more interaction.
+
+
+```
+
+
+#### b) Proportions(%) of Users who set the full wedding date on the page(The exact date)
+
+```{r , echo=FALSE}
+round(mean(customers$has_wedding_date)*100 ,2)
+```
+
+#### c) Proportions(%) of users who set only month of wedding(The month)
+
+```{r , echo=FALSE}
+round(mean(customers$has_wedding_month)*100 , 2)
+```
+
+
+#### d) Number of guest picked on the venue page by users
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = guest_no)) +
+geom_bar(fill="#fe6f48")+labs(title = customer_time, x= "Number of guests", y="Users interaction count")
+
+paste("Proportions(%) of users and guests chosen")
+round(prop.table(table(customers$guest_no))*100,2)
+```
+
+
+```{}
+More users picked 10-19 and just two of us categories
+```
+
+#### e) Total matched venues by location type
+
+
+```{r , echo=FALSE}
+ggplot(customers, aes(x = total_matched_venues, fill= location_type)) +
+geom_bar()+labs(title = customer_time, x= "Total matched venues", y="Users interaction count")
+paste("Proportions(%) of location Types")
+round(prop.table(table(customers$location_type))*100, 2)
+```
+
+```{}
+Observation
+
+Inspiration has more matched venues but most of the users go for market as location type(84%). Inspiration explains 16% 
+
+
+```
+
+
+
+
+**2. Do they switch dates**
+
+YES they change dates
+
+#### Unique Users who changed their wedding date on the page
+
+```{r, echo=FALSE}
+unique_cust = distinct(customers, id, .keep_all = TRUE)
+val = mean(unique_cust$has_changed_date, na.rm = T)
+paste(round(val,2)*100,sep = "","%")
+```
+
+
+
+
+```{r, echo=F}
+#days difference for those who switch dates
+customers <- subset(customers, date != "")
+customers$changed_date_max = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      dmax =max(df$date)
+      dmin =min(df$date)
+      customers[i,c("changed_date_max")] <- dmax
+    }
+    else{
+      customers[i,c("changed_date_max")] <- 0
+    }
+  }
+}
+
+
+
+customers$changed_date_min = 0
+N = nrow(customers)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers, id == customers[i,c("id")])
+    if(length(unique(df$date)) > 1){
+      dmax =max(df$date)
+      dmin =min(df$date)
+      customers[i,c("changed_date_min")] <-dmin
+    }
+    else{
+      customers[i,c("changed_date_min")] <- 0
+    }
+  }
+}
+
+
+customers$changed_date_min = ifelse(customers$changed_date_min=="0", NA, customers$changed_date_min)
+customers$changed_date_min = as.Date(customers$changed_date_min)
+
+customers$changed_date_max = ifelse(customers$changed_date_max=="0", NA, customers$changed_date_max)
+customers$changed_date_max = as.Date(customers$changed_date_max)
+
+customers$changed_date_days <- customers$changed_date_max - customers$changed_date_min
+
+
+x=min(customers$changed_date_days, na.rm=T)
+y=mean(customers$changed_date_days, na.rm=T)
+z=max(customers$changed_date_days, na.rm=T)
+
+paste("Minimum number of days",sep = ":-",x )
+paste("Average number of days",sep = ":-",y)
+#paste("Maximum number of days",sep = ":-",z)
+```
+
+```{}
+Observation
+
+The average number of days between the initial and new date on the page is approximately 6months
+
+
+```
+
+**3. Do they switch venues**
+
+YES They change venues
+
+```{r, echo=F}
+customers$has_changed_venue = 0
+customers1 = subset(customers, location_type == "inspiration")
+N = nrow(customers1)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers1, id == customers1[i,c("id")])
+    if(length(unique(df$tag_ids)) > 1){
+      customers1[i,c("has_changed_venue")] <- 1
+    }
+    else{
+      customers1[i,c("has_changed_venue")] <- 0
+    }
+  }
+}
+
+
+customers$has_changed_venue = 0
+customers2 = subset(customers, location_type == "market")
+N = nrow(customers2)
+for(i in 1:N){
+  if(i <=N){
+    df = subset(customers2, id == customers2[i,c("id")])
+    if(length(unique(df$market_id)) > 1){
+      customers2[i,c("has_changed_venue")] <- 1
+    }
+    else{
+      customers2[i,c("has_changed_venue")] <- 0
+    }
+  }
+}
+
+insp = round(mean(customers1$has_changed_venue)*100,2)
+paste("location Type : Inspiration, proportion(%) of Users change venues",sep = ":",insp )
+
+mark = round(mean(customers2$has_changed_venue)*100,2)
+paste("location Type: Market, proportion(%) of Users change venues",sep = ":",mark )
+
+```
+
+
+
+
+
+
+
+
+

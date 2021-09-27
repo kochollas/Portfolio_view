@@ -1,0 +1,1825 @@
+1,secA_q12c,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,64(7.57),74(5.78),
+3,No,759(89.82),1192(93.12),
+4,Prefer not to answer,22(2.6),14(1.09),
+5,*,*,*,
+1,secA_q12d,secA_q2,Freq,
+2,Yes,Male,6,
+3,No,Male,817,
+4,Prefer not to answer,Male,22,
+5,Yes,Female,6,
+6,No,Female,1252,
+7,Prefer not to answer,Female,22,
+8,*,*,*,
+1,secA_q12d,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,6(0.71),6(0.47),
+3,No,817(96.69),1252(97.81),
+4,Prefer not to answer,22(2.6),22(1.72),
+5,*,*,*,
+1,secA_q12e,secA_q2,Freq,
+2,Yes,Male,13,
+3,No,Male,809,
+4,Prefer not to answer,Male,23,
+5,Yes,Female,27,
+6,No,Female,1230,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12e,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,13(1.54),27(2.11),
+3,No,809(95.74),1230(96.09),
+4,Prefer not to answer,23(2.72),23(1.8),
+5,*,*,*,
+1,secA_q12f,secA_q2,Freq,
+2,Yes,Male,22,
+3,No,Male,802,
+4,Prefer not to answer,Male,21,
+5,Yes,Female,30,
+6,No,Female,1227,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12f,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,22(2.6),30(2.34),
+3,No,802(94.91),1227(95.86),
+4,Prefer not to answer,21(2.49),23(1.8),
+5,*,*,*,
+1,secA_q12g,secA_q2,Freq,
+2,Yes,Male,25,
+3,No,Male,798,
+4,Prefer not to answer,Male,22,
+5,Yes,Female,15,
+6,No,Female,1242,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12g,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,25(2.96),15(1.17),
+3,No,798(94.44),1242(97.03),
+4,Prefer not to answer,22(2.6),23(1.8),
+5,*,*,*,
+1,secA_q13,secA_q2,Freq,
+2,Yes,Male,511,
+3,No,Male,334,
+4,Yes,Female,833,
+5,No,Female,447,
+6,*,*,*,
+1,secA_q13,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,511(60.47),833(65.08),
+3,No,334(39.53),447(34.92),
+4,*,*,*,
+1,secB_q14,secA_q2,Freq,
+2,Yes,Male,0,
+3,No,Male,0,
+4,N/A  (group is not relevant for me),Male,0,
+5,Yes,Female,0,
+6,No,Female,0,
+7,N/A  (group is not relevant for me),Female,0,
+8,*,*,*,
+1,secB_q14,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,0(NaN),0(NaN),
+3,No,0(NaN),0(NaN),
+4,N/A  (group is not relevant for me),0(NaN),0(NaN),
+5,*,*,*,
+1,secB_q14a,secA_q2,Freq,
+2,Yes,Male,506,
+3,No,Male,233,
+4,N/A  (group is not relevant for me),Male,106,
+5,Yes,Female,629,
+6,No,Female,377,
+7,N/A  (group is not relevant for me),Female,274,
+8,*,*,*,
+1,secB_q14a,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,506(59.88),629(49.14),
+3,No,233(27.57),377(29.45),
+4,N/A  (group is not relevant for me),106(12.54),274(21.41),
+5,*,*,*,
+1,secB_q14a_sp,secA_q2,Freq,
+2,Yes,Male,104,
+3,No,Male,402,
+4,Yes,Female,128,
+5,No,Female,501,
+6,*,*,*,
+1,secB_q14a_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,104(20.55),128(20.35),
+3,No,402(79.45),501(79.65),
+4,*,*,*,
+1,secB_q14b,secA_q2,Freq,
+2,Yes,Male,249,
+3,No,Male,457,
+4,N/A  (group is not relevant for me),Male,139,
+5,Yes,Female,565,
+6,No,Female,592,
+7,N/A  (group is not relevant for me),Female,123,
+8,*,*,*,
+1,secB_q14b,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,249(29.47),565(44.14),
+3,No,457(54.08),592(46.25),
+4,N/A  (group is not relevant for me),139(16.45),123(9.61),
+5,*,*,*,
+1,secB_q14b_sp,secA_q2,Freq,
+2,Yes,Male,48,
+3,No,Male,201,
+4,Yes,Female,118,
+5,No,Female,447,
+6,*,*,*,
+1,secB_q14b_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,48(19.28),118(20.88),
+3,No,201(80.72),447(79.12),
+4,*,*,*,
+1,secB_q14c,secA_q2,Freq,
+2,Yes,Male,419,
+3,No,Male,405,
+4,N/A  (group is not relevant for me),Male,21,
+5,Yes,Female,713,
+6,No,Female,541,
+7,N/A  (group is not relevant for me),Female,26,
+8,*,*,*,
+1,secB_q14c,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,419(49.59),713(55.7),
+3,No,405(47.93),541(42.27),
+4,N/A  (group is not relevant for me),21(2.49),26(2.03),
+5,*,*,*,
+1,secB_q14c_sp,secA_q2,Freq,
+2,Yes,Male,127,
+3,No,Male,292,
+4,Yes,Female,232,
+5,No,Female,481,
+6,*,*,*,
+1,secB_q14c_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,127(30.31),232(32.54),
+3,No,292(69.69),481(67.46),
+4,*,*,*,
+1,secB_q14d,secA_q2,Freq,
+2,Yes,Male,307,
+3,No,Male,524,
+4,N/A  (group is not relevant for me),Male,14,
+5,Yes,Female,500,
+6,No,Female,749,
+7,N/A  (group is not relevant for me),Female,31,
+8,*,*,*,
+1,secB_q14d,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,307(36.33),500(39.06),
+3,No,524(62.01),749(58.52),
+4,N/A  (group is not relevant for me),14(1.66),31(2.42),
+5,*,*,*,
+1,secB_q14d_sp,secA_q2,Freq,
+2,Yes,Male,92,
+3,No,Male,215,
+4,Yes,Female,190,
+5,No,Female,310,
+6,*,*,*,
+1,secB_q14d_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,92(29.97),190(38),
+3,No,215(70.03),310(62),
+4,*,*,*,
+1,secB_q14e,secA_q2,Freq,
+2,Yes,Male,132,
+3,No,Male,689,
+4,N/A  (group is not relevant for me),Male,24,
+5,Yes,Female,243,
+6,No,Female,991,
+7,N/A  (group is not relevant for me),Female,46,
+8,*,*,*,
+1,secB_q14e,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,132(15.62),243(18.98),
+3,No,689(81.54),991(77.42),
+4,N/A  (group is not relevant for me),24(2.84),46(3.59),
+5,*,*,*,
+1,secB_q14e_sp,secA_q2,Freq,
+2,Yes,Male,61,
+3,No,Male,71,
+4,Yes,Female,121,
+5,No,Female,122,
+6,*,*,*,
+1,secB_q14e_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,61(46.21),121(49.79),
+3,No,71(53.79),122(50.21),
+4,*,*,*,
+1,secA_q6,secA_q2,Freq,
+2,"Yes, my partner(s) is also HIV-positive",Male,407,
+3,"No, my partner(s) is not HIV-positive",Male,150,
+4,Unsure about the HIV status of my partner(s),Male,76,
+5,"Yes, my partner(s) is also HIV-positive",Female,437,
+6,"No, my partner(s) is not HIV-positive",Female,260,
+7,Unsure about the HIV status of my partner(s),Female,122,
+8,*,*,*,
+1,secA_q6,secA_q2 _.Male,secA_q2 _.Female,
+2,"Yes, my partner(s) is also HIV-positive",407(64.3),437(53.36),
+3,"No, my partner(s) is not HIV-positive",150(23.7),260(31.75),
+4,Unsure about the HIV status of my partner(s),76(12.01),122(14.9),
+5,*,*,*,
+1,secA_q8,secA_q2,Freq,
+2,Yes,Male,95,
+3,No,Male,750,
+4,Yes,Female,101,
+5,No,Female,1179,
+6,*,*,*,
+1,secA_q8,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,95(11.24),101(7.89),
+3,No,750(88.76),1179(92.11),
+4,*,*,*,
+1,secA_q9,secA_q2,Freq,
+2,No formal education,Male,38,
+3,Primary/elementary/local equivalent,Male,266,
+4,Secondary/high school/local equivalent,Male,351,
+5,Trade/vocational school,Male,62,
+6,University/tertiary education,Male,128,
+7,No formal education,Female,111,
+8,Primary/elementary/local equivalent,Female,509,
+9,Secondary/high school/local equivalent,Female,445,
+10,Trade/vocational school,Female,77,
+11,University/tertiary education,Female,138,
+12,*,*,*,
+1,secA_q9,secA_q2 _.Male,secA_q2 _.Female,
+2,No formal education,38(4.5),111(8.67),
+3,Primary/elementary/local equivalent,266(31.48),509(39.77),
+4,Secondary/high school/local equivalent,351(41.54),445(34.77),
+5,Trade/vocational school,62(7.34),77(6.02),
+6,University/tertiary education,128(15.15),138(10.78),
+7,*,*,*,
+1,secA_q10,secA_q2,Freq,
+2,In full-time work (as an employee),Male,94,
+3,In part-time work (as an employee),Male,114,
+4,"Working full-time, but not as an employee (self-employed or business owner)",Male,124,
+5,Doing casual or part-time work (self-employed or paid work for others),Male,247,
+6,Unemployed,Male,266,
+7,In full-time work (as an employee),Female,114,
+8,In part-time work (as an employee),Female,150,
+9,"Working full-time, but not as an employee (self-employed or business owner)",Female,172,
+10,Doing casual or part-time work (self-employed or paid work for others),Female,354,
+11,Unemployed,Female,490,
+12,*,*,*,
+1,secA_q10,secA_q2 _.Male,secA_q2 _.Female,
+2,In full-time work (as an employee),94(11.12),114(8.91),
+3,In part-time work (as an employee),114(13.49),150(11.72),
+4,"Working full-time, but not as an employee (self-employed or business owner)",124(14.67),172(13.44),
+5,Doing casual or part-time work (self-employed or paid work for others),247(29.23),354(27.66),
+6,Unemployed,266(31.48),490(38.28),
+7,*,*,*,
+1,secA_q11,secA_q2,Freq,
+2,Never,Male,120,
+3,Some of the time,Male,564,
+4,Most of the time,Male,161,
+5,Never,Female,213,
+6,Some of the time,Female,825,
+7,Most of the time,Female,242,
+8,*,*,*,
+1,secA_q11,secA_q2 _.Male,secA_q2 _.Female,
+2,Never,120(14.2),213(16.64),
+3,Some of the time,564(66.75),825(64.45),
+4,Most of the time,161(19.05),242(18.91),
+5,*,*,*,
+1,secA_q12,secA_q2,Freq,
+2,Yes,Male,0,
+3,No,Male,0,
+4,Prefer not to answer,Male,0,
+5,Yes,Female,0,
+6,No,Female,0,
+7,Prefer not to answer,Female,0,
+8,*,*,*,
+1,secA_q12,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,0(NaN),0(NaN),
+3,No,0(NaN),0(NaN),
+4,Prefer not to answer,0(NaN),0(NaN),
+5,*,*,*,
+1,secA_q12a,secA_q2,Freq,
+2,Yes,Male,171,
+3,No,Male,657,
+4,Prefer not to answer,Male,17,
+5,Yes,Female,299,
+6,No,Female,965,
+7,Prefer not to answer,Female,16,
+8,*,*,*,
+1,secA_q12a,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,171(20.24),299(23.36),
+3,No,657(77.75),965(75.39),
+4,Prefer not to answer,17(2.01),16(1.25),
+5,*,*,*,
+1,secA_q12b,secA_q2,Freq,
+2,Yes,Male,32,
+3,No,Male,784,
+4,Prefer not to answer,Male,29,
+5,Yes,Female,63,
+6,No,Female,1195,
+7,Prefer not to answer,Female,22,
+8,*,*,*,
+1,secA_q12b,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,32(3.79),63(4.92),
+3,No,784(92.78),1195(93.36),
+4,Prefer not to answer,29(3.43),22(1.72),
+5,*,*,*,
+1,secA_q12c,secA_q2,Freq,
+2,Yes,Male,64,
+3,No,Male,759,
+4,Prefer not to answer,Male,22,
+5,Yes,Female,74,
+6,No,Female,1192,
+7,Prefer not to answer,Female,14,
+8,*,*,*,
+1,secA_q12c,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,64(7.57),74(5.78),
+3,No,759(89.82),1192(93.12),
+4,Prefer not to answer,22(2.6),14(1.09),
+5,*,*,*,
+1,secA_q12d,secA_q2,Freq,
+2,Yes,Male,6,
+3,No,Male,817,
+4,Prefer not to answer,Male,22,
+5,Yes,Female,6,
+6,No,Female,1252,
+7,Prefer not to answer,Female,22,
+8,*,*,*,
+1,secA_q12d,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,6(0.71),6(0.47),
+3,No,817(96.69),1252(97.81),
+4,Prefer not to answer,22(2.6),22(1.72),
+5,*,*,*,
+1,secA_q12e,secA_q2,Freq,
+2,Yes,Male,13,
+3,No,Male,809,
+4,Prefer not to answer,Male,23,
+5,Yes,Female,27,
+6,No,Female,1230,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12e,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,13(1.54),27(2.11),
+3,No,809(95.74),1230(96.09),
+4,Prefer not to answer,23(2.72),23(1.8),
+5,*,*,*,
+1,secA_q12f,secA_q2,Freq,
+2,Yes,Male,22,
+3,No,Male,802,
+4,Prefer not to answer,Male,21,
+5,Yes,Female,30,
+6,No,Female,1227,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12f,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,22(2.6),30(2.34),
+3,No,802(94.91),1227(95.86),
+4,Prefer not to answer,21(2.49),23(1.8),
+5,*,*,*,
+1,secA_q12g,secA_q2,Freq,
+2,Yes,Male,25,
+3,No,Male,798,
+4,Prefer not to answer,Male,22,
+5,Yes,Female,15,
+6,No,Female,1242,
+7,Prefer not to answer,Female,23,
+8,*,*,*,
+1,secA_q12g,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,25(2.96),15(1.17),
+3,No,798(94.44),1242(97.03),
+4,Prefer not to answer,22(2.6),23(1.8),
+5,*,*,*,
+1,secA_q13,secA_q2,Freq,
+2,Yes,Male,511,
+3,No,Male,334,
+4,Yes,Female,833,
+5,No,Female,447,
+6,*,*,*,
+1,secA_q13,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,511(60.47),833(65.08),
+3,No,334(39.53),447(34.92),
+4,*,*,*,
+1,secB_q14,secA_q2,Freq,
+2,Yes,Male,0,
+3,No,Male,0,
+4,N/A  (group is not relevant for me),Male,0,
+5,Yes,Female,0,
+6,No,Female,0,
+7,N/A  (group is not relevant for me),Female,0,
+8,*,*,*,
+1,secB_q14,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,0(NaN),0(NaN),
+3,No,0(NaN),0(NaN),
+4,N/A  (group is not relevant for me),0(NaN),0(NaN),
+5,*,*,*,
+1,secB_q14a,secA_q2,Freq,
+2,Yes,Male,506,
+3,No,Male,233,
+4,N/A  (group is not relevant for me),Male,106,
+5,Yes,Female,629,
+6,No,Female,377,
+7,N/A  (group is not relevant for me),Female,274,
+8,*,*,*,
+1,secB_q14a,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,506(59.88),629(49.14),
+3,No,233(27.57),377(29.45),
+4,N/A  (group is not relevant for me),106(12.54),274(21.41),
+5,*,*,*,
+1,secB_q14a_sp,secA_q2,Freq,
+2,Yes,Male,104,
+3,No,Male,402,
+4,Yes,Female,128,
+5,No,Female,501,
+6,*,*,*,
+1,secB_q14a_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,104(20.55),128(20.35),
+3,No,402(79.45),501(79.65),
+4,*,*,*,
+1,secB_q14b,secA_q2,Freq,
+2,Yes,Male,249,
+3,No,Male,457,
+4,N/A  (group is not relevant for me),Male,139,
+5,Yes,Female,565,
+6,No,Female,592,
+7,N/A  (group is not relevant for me),Female,123,
+8,*,*,*,
+1,secB_q14b,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,249(29.47),565(44.14),
+3,No,457(54.08),592(46.25),
+4,N/A  (group is not relevant for me),139(16.45),123(9.61),
+5,*,*,*,
+1,secB_q14b_sp,secA_q2,Freq,
+2,Yes,Male,48,
+3,No,Male,201,
+4,Yes,Female,118,
+5,No,Female,447,
+6,*,*,*,
+1,secB_q14b_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,48(19.28),118(20.88),
+3,No,201(80.72),447(79.12),
+4,*,*,*,
+1,secB_q14c,secA_q2,Freq,
+2,Yes,Male,419,
+3,No,Male,405,
+4,N/A  (group is not relevant for me),Male,21,
+5,Yes,Female,713,
+6,No,Female,541,
+7,N/A  (group is not relevant for me),Female,26,
+8,*,*,*,
+1,secB_q14c,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,419(49.59),713(55.7),
+3,No,405(47.93),541(42.27),
+4,N/A  (group is not relevant for me),21(2.49),26(2.03),
+5,*,*,*,
+1,secB_q14c_sp,secA_q2,Freq,
+2,Yes,Male,127,
+3,No,Male,292,
+4,Yes,Female,232,
+5,No,Female,481,
+6,*,*,*,
+1,secB_q14c_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,127(30.31),232(32.54),
+3,No,292(69.69),481(67.46),
+4,*,*,*,
+1,secB_q14d,secA_q2,Freq,
+2,Yes,Male,307,
+3,No,Male,524,
+4,N/A  (group is not relevant for me),Male,14,
+5,Yes,Female,500,
+6,No,Female,749,
+7,N/A  (group is not relevant for me),Female,31,
+8,*,*,*,
+1,secB_q14d,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,307(36.33),500(39.06),
+3,No,524(62.01),749(58.52),
+4,N/A  (group is not relevant for me),14(1.66),31(2.42),
+5,*,*,*,
+1,secB_q14d_sp,secA_q2,Freq,
+2,Yes,Male,92,
+3,No,Male,215,
+4,Yes,Female,190,
+5,No,Female,310,
+6,*,*,*,
+1,secB_q14d_sp,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,92(29.97),190(38),
+3,No,215(70.03),310(62),
+4,*,*,*,
+1,secB_q14e,secA_q2,Freq,
+2,Yes,Male,132,
+3,No,Male,689,
+4,N/A  (group is not relevant for me),Male,24,
+5,Yes,Female,243,
+6,No,Female,991,
+7,N/A  (group is not relevant for me),Female,46,
+8,*,*,*,
+1,secB_q14e,secA_q2 _.Male,secA_q2 _.Female,
+2,Yes,132(15.62),243(18.98),
+3,No,689(81.54),991(77.42),
+4,N/A  (group is not relevant for me),24(2.84),46(3.59),
+5,*,*,*,
+1,secB_q14e_sp,secA_q2,Freq,
+2,Yes,Male,61,
+3,No,Male,71,
+4,Yes,Female,121,
+5,No,Female,122,
+6,*,*,*,
+1,secB_q14e_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,61(46.21),121(49.79),182(8.56)
+3,No,71(53.79),122(50.21),193(9.08)
+4,*,*,*,*
+1,selected_region,secA_q2 _.Male,secA_q2 _.Female,Total
+2,North Eastern,27(3.2),45(3.52),72(3.39)
+3,Coast,62(7.34),97(7.58),159(7.48)
+4,Upper Eastern,37(4.38),45(3.52),82(3.86)
+5,Rift - Valley,82(9.7),130(10.16),212(9.98)
+6,South Rift,80(9.47),126(9.84),206(9.69)
+7,Western,85(10.06),141(11.02),226(10.64)
+8,Nyanza,213(25.21),306(23.91),519(24.42)
+9,Central,79(9.35),119(9.3),198(9.32)
+10,Lower Eastern,37(4.38),79(6.17),116(5.46)
+11,Nairobi,143(16.92),192(15),335(15.76)
+12,*,*,*,*
+1,Q73,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,39(4.62),41(3.2),80(3.76)
+3,No,771(91.24),1207(94.3),1978(93.08)
+4,Prefer not to answer,35(4.14),32(2.5),67(3.15)
+5,*,*,*,*
+1,Q73,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,39(4.62),41(3.2),80(3.76)
+3,No,771(91.24),1207(94.3),1978(93.08)
+4,Prefer not to answer,35(4.14),32(2.5),67(3.15)
+5,*,*,*,*
+1,Q68,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,129(15.27),313(24.45),442(20.8)
+3,No,664(78.58),904(70.62),1568(73.79)
+4,Prefer not to answer,52(6.15),63(4.92),115(5.41)
+5,*,*,*,*
+1,Q69,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,75(8.88),236(18.44),311(14.64)
+3,No,710(84.02),985(76.95),1695(79.76)
+4,Prefer not to answer,60(7.1),59(4.61),119(5.6)
+5,*,*,*,*
+1,Q60,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Women who have sex with women,0(0),29(2.29),29(1.36)
+3,Lesbian/gay,5(18.52),9(0.71),14(0.66)
+4,Bisexual,4(14.81),23(1.82),27(1.27)
+5,None of the above,18(66.67),1206(95.19),1224(57.6)
+6,*,*,*,*
+1,Q61,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,1(5.56),15(1.24),16(0.75)
+3,No,12(66.67),1133(93.95),1145(53.88)
+4,Prefer not to answer,5(27.78),58(4.81),63(2.96)
+5,*,*,*,*
+1,Q56,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,5(0.74),1(14.29),6(0.28)
+3,No,629(93.19),4(57.14),633(29.79)
+4,Prefer not to answer,41(6.07),2(28.57),43(2.02)
+5,*,*,*,*
+1,Q55,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"MSM; If yes, Go to Q57",71(8.66),0(0),71(3.34)
+3,"Gay/homosexual; If yes, Go to Q57",45(5.49),0(0),45(2.12)
+4,"Bisexual; If yes, Go to Q65",29(3.54),1(12.5),30(1.41)
+5,None of the above; Go to Q56,675(82.32),7(87.5),682(32.09)
+6,*,*,*,*
+1,secA_q3,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Female,19(2.25),1261(98.52),1280(60.24)
+3,Male,812(96.09),2(0.16),814(38.31)
+4,Transgender,8(0.95),6(0.47),14(0.66)
+5,"Do not identify as female, male, or transgender",1(0.12),9(0.7),10(0.47)
+6,Prefer not to answer,5(0.59),2(0.16),7(0.33)
+7,*,*,*,*
+1,secA_q9,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No formal education,38(4.5),111(8.67),149(7.01)
+3,Primary/elementary/local equivalent,266(31.48),509(39.77),775(36.47)
+4,Secondary/high school/local equivalent,351(41.54),445(34.77),796(37.46)
+5,Trade/vocational school,62(7.34),77(6.02),139(6.54)
+6,University/tertiary education,128(15.15),138(10.78),266(12.52)
+7,*,*,*,*
+1,secA_q8,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,95(11.24),101(7.89),196(9.22)
+3,No,750(88.76),1179(92.11),1929(90.78)
+4,*,*,*,*
+1,secA_q5,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,633(74.91),819(63.98),1452(68.33)
+3,No,212(25.09),461(36.02),673(31.67)
+4,*,*,*,*
+1,secA_q6,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, my partner(s) is also HIV-positive",407(64.3),437(53.36),844(39.72)
+3,"No, my partner(s) is not HIV-positive",150(23.7),260(31.75),410(19.29)
+4,Unsure about the HIV status of my partner(s),76(12.01),122(14.9),198(9.32)
+5,*,*,*,*
+1,secA_q13,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,511(60.47),833(65.08),1344(63.25)
+3,No,334(39.53),447(34.92),781(36.75)
+4,*,*,*,*
+1,secA_q10,secA_q2 _.Male,secA_q2 _.Female,Total
+2,In full-time work (as an employee),94(11.12),114(8.91),208(9.79)
+3,In part-time work (as an employee),114(13.49),150(11.72),264(12.42)
+4,"Working full-time, but not as an employee (self-employed or business owner)",124(14.67),172(13.44),296(13.93)
+5,Doing casual or part-time work (self-employed or paid work for others),247(29.23),354(27.66),601(28.28)
+6,Unemployed,266(31.48),490(38.28),756(35.58)
+7,*,*,*,*
+1,secA_q11,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Never,120(14.2),213(16.64),333(15.67)
+3,Some of the time,564(66.75),825(64.45),1389(65.36)
+4,Most of the time,161(19.05),242(18.91),403(18.96)
+5,*,*,*,*
+1,secA_q12,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,0(NaN),0(NaN),0(0)
+3,No,0(NaN),0(NaN),0(0)
+4,Prefer not to answer,0(NaN),0(NaN),0(0)
+5,*,*,*,*
+1,secA_q12a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,171(20.24),299(23.36),470(22.12)
+3,No,657(77.75),965(75.39),1622(76.33)
+4,Prefer not to answer,17(2.01),16(1.25),33(1.55)
+5,*,*,*,*
+1,secA_q12b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,32(3.79),63(4.92),95(4.47)
+3,No,784(92.78),1195(93.36),1979(93.13)
+4,Prefer not to answer,29(3.43),22(1.72),51(2.4)
+5,*,*,*,*
+1,secA_q12c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,64(7.57),74(5.78),138(6.49)
+3,No,759(89.82),1192(93.12),1951(91.81)
+4,Prefer not to answer,22(2.6),14(1.09),36(1.69)
+5,*,*,*,*
+1,secA_q12d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,6(0.71),6(0.47),12(0.56)
+3,No,817(96.69),1252(97.81),2069(97.36)
+4,Prefer not to answer,22(2.6),22(1.72),44(2.07)
+5,*,*,*,*
+1,secA_q12e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,13(1.54),27(2.11),40(1.88)
+3,No,809(95.74),1230(96.09),2039(95.95)
+4,Prefer not to answer,23(2.72),23(1.8),46(2.16)
+5,*,*,*,*
+1,secA_q12f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,22(2.6),30(2.34),52(2.45)
+3,No,802(94.91),1227(95.86),2029(95.48)
+4,Prefer not to answer,21(2.49),23(1.8),44(2.07)
+5,*,*,*,*
+1,secA_q12g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,25(2.96),15(1.17),40(1.88)
+3,No,798(94.44),1242(97.03),2040(96)
+4,Prefer not to answer,22(2.6),23(1.8),45(2.12)
+5,*,*,*,*
+1,secB_q14a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,506(59.88),629(49.14),1135(53.41)
+3,No,233(27.57),377(29.45),610(28.71)
+4,N/A  (group is not relevant for me),106(12.54),274(21.41),380(17.88)
+5,*,*,*,*
+1,secB_q14b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,249(29.47),565(44.14),814(38.31)
+3,No,457(54.08),592(46.25),1049(49.36)
+4,N/A  (group is not relevant for me),139(16.45),123(9.61),262(12.33)
+5,*,*,*,*
+1,secB_q14c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,419(49.59),713(55.7),1132(53.27)
+3,No,405(47.93),541(42.27),946(44.52)
+4,N/A  (group is not relevant for me),21(2.49),26(2.03),47(2.21)
+5,*,*,*,*
+1,secB_q14d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,307(36.33),500(39.06),807(37.98)
+3,No,524(62.01),749(58.52),1273(59.91)
+4,N/A  (group is not relevant for me),14(1.66),31(2.42),45(2.12)
+5,*,*,*,*
+1,secB_q14e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,132(15.62),243(18.98),375(17.65)
+3,No,689(81.54),991(77.42),1680(79.06)
+4,N/A  (group is not relevant for me),24(2.84),46(3.59),70(3.29)
+5,*,*,*,*
+1,secB_q14f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,120(14.2),165(12.89),285(13.41)
+3,No,471(55.74),667(52.11),1138(53.55)
+4,N/A  (group is not relevant for me),254(30.06),448(35),702(33.04)
+5,*,*,*,*
+1,secB_q14g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,119(14.08),167(13.05),286(13.46)
+3,No,490(57.99),661(51.64),1151(54.16)
+4,N/A  (group is not relevant for me),236(27.93),452(35.31),688(32.38)
+5,*,*,*,*
+1,secB_q14h,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,22(2.6),24(1.88),46(2.16)
+3,No,444(52.54),618(48.28),1062(49.98)
+4,N/A  (group is not relevant for me),379(44.85),638(49.84),1017(47.86)
+5,*,*,*,*
+1,secB_q14i,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,13(1.54),27(2.11),40(1.88)
+3,No,446(52.78),608(47.5),1054(49.6)
+4,N/A  (group is not relevant for me),386(45.68),645(50.39),1031(48.52)
+5,*,*,*,*
+1,secB_q14j,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,80(9.47),145(11.33),225(10.59)
+3,No,575(68.05),832(65),1407(66.21)
+4,N/A  (group is not relevant for me),190(22.49),303(23.67),493(23.2)
+5,*,*,*,*
+1,secB_q14a_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,104(20.55),128(20.35),232(10.92)
+3,No,402(79.45),501(79.65),903(42.49)
+4,*,*,*,*
+1,secB_q14b_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,48(19.28),118(20.88),166(7.81)
+3,No,201(80.72),447(79.12),648(30.49)
+4,*,*,*,*
+1,secB_q14c_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,127(30.31),232(32.54),359(16.89)
+3,No,292(69.69),481(67.46),773(36.38)
+4,*,*,*,*
+1,secB_q14d_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,92(29.97),190(38),282(13.27)
+3,No,215(70.03),310(62),525(24.71)
+4,*,*,*,*
+1,secB_q14e_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,61(46.21),121(49.79),182(8.56)
+3,No,71(53.79),122(50.21),193(9.08)
+4,*,*,*,*
+1,secB_q14f_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,18(15),43(26.06),61(2.87)
+3,No,102(85),122(73.94),224(10.54)
+4,*,*,*,*
+1,secB_q14g_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,17(14.29),53(31.74),70(3.29)
+3,No,102(85.71),114(68.26),216(10.16)
+4,*,*,*,*
+1,secB_q14h_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,11(50),9(37.5),20(0.94)
+3,No,11(50),15(62.5),26(1.22)
+4,*,*,*,*
+1,secB_q14i_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,9(69.23),11(40.74),20(0.94)
+3,No,4(30.77),16(59.26),20(0.94)
+4,*,*,*,*
+1,secB_q14j_sp,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,28(35),56(38.62),84(3.95)
+3,No,52(65),89(61.38),141(6.64)
+4,*,*,*,*
+1,secB_q15a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Agree,401(47.46),607(47.42),1008(47.44)
+3,Somewhat agree,150(17.75),254(19.84),404(19.01)
+4,Disagree,260(30.77),374(29.22),634(29.84)
+5,N/A,34(4.02),45(3.52),79(3.72)
+6,*,*,*,*
+1,secB_q15b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Agree,392(46.39),578(45.16),970(45.65)
+3,Somewhat agree,171(20.24),260(20.31),431(20.28)
+4,Disagree,237(28.05),390(30.47),627(29.51)
+5,N/A,45(5.33),52(4.06),97(4.56)
+6,*,*,*,*
+1,secB_q15c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Agree,149(17.63),261(20.39),410(19.29)
+3,Somewhat agree,132(15.62),221(17.27),353(16.61)
+4,Disagree,481(56.92),678(52.97),1159(54.54)
+5,N/A,83(9.82),120(9.38),203(9.55)
+6,*,*,*,*
+1,secB_q15d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Agree,131(15.5),224(17.5),355(16.71)
+3,Somewhat agree,138(16.33),220(17.19),358(16.85)
+4,Disagree,471(55.74),693(54.14),1164(54.78)
+5,N/A,105(12.43),143(11.17),248(11.67)
+6,*,*,*,*
+1,secB_q15e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Agree,275(32.54),498(38.91),773(36.38)
+3,Somewhat agree,134(15.86),197(15.39),331(15.58)
+4,Disagree,385(45.56),533(41.64),918(43.2)
+5,N/A,51(6.04),52(4.06),103(4.85)
+6,*,*,*,*
+1,secC_q16a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",63(7.46),128(10),191(8.99)
+3,"Yes, but not in the last 12 months",102(12.07),163(12.73),265(12.47)
+4,No,651(77.04),951(74.3),1602(75.39)
+5,N/A,29(3.43),38(2.97),67(3.15)
+6,*,*,*,*
+1,secC_q16b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",46(5.44),67(5.23),113(5.32)
+3,"Yes, but not in the last 12 months",64(7.57),113(8.83),177(8.33)
+4,No,701(82.96),1054(82.34),1755(82.59)
+5,N/A,34(4.02),46(3.59),80(3.76)
+6,*,*,*,*
+1,secC_q16c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",69(8.17),133(10.39),202(9.51)
+3,"Yes, but not in the last 12 months",98(11.6),170(13.28),268(12.61)
+4,No,651(77.04),938(73.28),1589(74.78)
+5,N/A,27(3.2),39(3.05),66(3.11)
+6,*,*,*,*
+1,secC_q16d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",150(17.75),278(21.72),428(20.14)
+3,"Yes, but not in the last 12 months",141(16.69),256(20),397(18.68)
+4,No,529(62.6),702(54.84),1231(57.93)
+5,N/A,25(2.96),44(3.44),69(3.25)
+6,*,*,*,*
+1,secC_q16e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",187(22.13),337(26.33),524(24.66)
+3,"Yes, but not in the last 12 months",156(18.46),258(20.16),414(19.48)
+4,No,473(55.98),645(50.39),1118(52.61)
+5,N/A,29(3.43),40(3.12),69(3.25)
+6,*,*,*,*
+1,secC_q16f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",146(17.28),282(22.03),428(20.14)
+3,"Yes, but not in the last 12 months",106(12.54),206(16.09),312(14.68)
+4,No,566(66.98),753(58.83),1319(62.07)
+5,N/A,27(3.2),39(3.05),66(3.11)
+6,*,*,*,*
+1,secC_q16g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",88(10.41),157(12.27),245(11.53)
+3,"Yes, but not in the last 12 months",67(7.93),129(10.08),196(9.22)
+4,No,658(77.87),947(73.98),1605(75.53)
+5,N/A,32(3.79),47(3.67),79(3.72)
+6,*,*,*,*
+1,secC_q16h,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",67(7.93),130(10.16),197(9.27)
+3,"Yes, but not in the last 12 months",64(7.57),108(8.44),172(8.09)
+4,No,684(80.95),994(77.66),1678(78.96)
+5,N/A,30(3.55),48(3.75),78(3.67)
+6,*,*,*,*
+1,secC_q16i,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",48(5.68),92(7.19),140(6.59)
+3,"Yes, but not in the last 12 months",64(7.57),107(8.36),171(8.05)
+4,No,651(77.04),920(71.88),1571(73.93)
+5,N/A,82(9.7),161(12.58),243(11.44)
+6,*,*,*,*
+1,secC_q16j,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",28(3.31),59(4.61),87(4.09)
+3,"Yes, but not in the last 12 months",55(6.51),79(6.17),134(6.31)
+4,No,638(75.5),908(70.94),1546(72.75)
+5,N/A,124(14.67),234(18.28),358(16.85)
+6,*,*,*,*
+1,secC_q16k,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",89(10.53),148(11.56),237(11.15)
+3,"Yes, but not in the last 12 months",77(9.11),119(9.3),196(9.22)
+4,No,565(66.86),784(61.25),1349(63.48)
+5,N/A,114(13.49),229(17.89),343(16.14)
+6,*,*,*,*
+1,secD_q17a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,167(19.76),277(21.64),444(20.89)
+3,Has not been affected by my HIV status,471(55.74),697(54.45),1168(54.96)
+4,Has been negatively affected by my HIV status,192(22.72),282(22.03),474(22.31)
+5,N/A,15(1.78),24(1.88),39(1.84)
+6,*,*,*,*
+1,secD_q17b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,148(17.51),258(20.16),406(19.11)
+3,Has not been affected by my HIV status,548(64.85),796(62.19),1344(63.25)
+4,Has been negatively affected by my HIV status,135(15.98),202(15.78),337(15.86)
+5,N/A,14(1.66),24(1.88),38(1.79)
+6,*,*,*,*
+1,secD_q17c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,167(19.76),278(21.72),445(20.94)
+3,Has not been affected by my HIV status,566(66.98),839(65.55),1405(66.12)
+4,Has been negatively affected by my HIV status,95(11.24),130(10.16),225(10.59)
+5,N/A,17(2.01),33(2.58),50(2.35)
+6,*,*,*,*
+1,secD_q17d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,158(18.7),284(22.19),442(20.8)
+3,Has not been affected by my HIV status,443(52.43),630(49.22),1073(50.49)
+4,Has been negatively affected by my HIV status,230(27.22),334(26.09),564(26.54)
+5,N/A,14(1.66),32(2.5),46(2.16)
+6,*,*,*,*
+1,secD_q17e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,157(18.58),261(20.39),418(19.67)
+3,Has not been affected by my HIV status,452(53.49),677(52.89),1129(53.13)
+4,Has been negatively affected by my HIV status,218(25.8),295(23.05),513(24.14)
+5,N/A,18(2.13),47(3.67),65(3.06)
+6,*,*,*,*
+1,secD_q17f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,156(18.46),246(19.22),402(18.92)
+3,Has not been affected by my HIV status,431(51.01),629(49.14),1060(49.88)
+4,Has been negatively affected by my HIV status,222(26.27),316(24.69),538(25.32)
+5,N/A,36(4.26),89(6.95),125(5.88)
+6,*,*,*,*
+1,secD_q17g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,119(14.08),193(15.08),312(14.68)
+3,Has not been affected by my HIV status,440(52.07),645(50.39),1085(51.06)
+4,Has been negatively affected by my HIV status,186(22.01),256(20),442(20.8)
+5,N/A,100(11.83),186(14.53),286(13.46)
+6,*,*,*,*
+1,secD_q17h,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,122(14.44),223(17.42),345(16.24)
+3,Has not been affected by my HIV status,477(56.45),663(51.8),1140(53.65)
+4,Has been negatively affected by my HIV status,171(20.24),255(19.92),426(20.05)
+5,N/A,75(8.88),139(10.86),214(10.07)
+6,*,*,*,*
+1,secD_q17i,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,157(18.58),272(21.25),429(20.19)
+3,Has not been affected by my HIV status,509(60.24),736(57.5),1245(58.59)
+4,Has been negatively affected by my HIV status,147(17.4),209(16.33),356(16.75)
+5,N/A,32(3.79),63(4.92),95(4.47)
+6,*,*,*,*
+1,secD_q17j,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Has been positively affected by my HIV status,166(19.64),279(21.8),445(20.94)
+3,Has not been affected by my HIV status,527(62.37),768(60),1295(60.94)
+4,Has been negatively affected by my HIV status,122(14.44),179(13.98),301(14.16)
+5,N/A,30(3.55),54(4.22),84(3.95)
+6,*,*,*,*
+1,secD_q19a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,700(82.84),1074(83.91),1774(83.48)
+3,Yes,127(15.03),188(14.69),315(14.82)
+4,N/A (category is not applicable for me),18(2.13),18(1.41),36(1.69)
+5,*,*,*,*
+1,secD_q19b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,767(90.77),1167(91.17),1934(91.01)
+3,Yes,63(7.46),96(7.5),159(7.48)
+4,N/A (category is not applicable for me),15(1.78),17(1.33),32(1.51)
+5,*,*,*,*
+1,secD_q19c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,657(77.75),980(76.56),1637(77.04)
+3,Yes,95(11.24),129(10.08),224(10.54)
+4,N/A (category is not applicable for me),93(11.01),171(13.36),264(12.42)
+5,*,*,*,*
+1,secD_q19d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,710(84.02),1099(85.86),1809(85.13)
+3,Yes,109(12.9),153(11.95),262(12.33)
+4,N/A (category is not applicable for me),26(3.08),28(2.19),54(2.54)
+5,*,*,*,*
+1,secD_q19e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,679(80.36),1064(83.12),1743(82.02)
+3,Yes,145(17.16),197(15.39),342(16.09)
+4,N/A (category is not applicable for me),21(2.49),19(1.48),40(1.88)
+5,*,*,*,*
+1,secD_q19f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,No,687(81.3),957(74.77),1644(77.36)
+3,Yes,128(15.15),244(19.06),372(17.51)
+4,N/A (category is not applicable for me),30(3.55),79(6.17),109(5.13)
+5,*,*,*,*
+1,secD_q20a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,246(29.11),393(30.7),639(30.07)
+3,Agree/Yes,599(70.89),887(69.3),1486(69.93)
+4,*,*,*,*
+1,secD_q20b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,685(81.07),1038(81.09),1723(81.08)
+3,Agree/Yes,160(18.93),242(18.91),402(18.92)
+4,*,*,*,*
+1,secD_q20c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,566(66.98),883(68.98),1449(68.19)
+3,Agree/Yes,279(33.02),397(31.02),676(31.81)
+4,*,*,*,*
+1,secD_q20d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,579(68.52),930(72.66),1509(71.01)
+3,Agree/Yes,266(31.48),350(27.34),616(28.99)
+4,*,*,*,*
+1,secD_q20e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,570(67.46),850(66.41),1420(66.82)
+3,Agree/Yes,275(32.54),430(33.59),705(33.18)
+4,*,*,*,*
+1,secD_q20f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Disagree/No,319(37.75),465(36.33),784(36.89)
+3,Agree/Yes,526(62.25),815(63.67),1341(63.11)
+4,*,*,*,*
+1,secE_q22,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"A provider recommended it, or as part of other health care (e.g., antenatal, medical male  circumcision, STI testing/tre",157(22.24),332(31.03),489(23.01)
+3,I believed I was at risk for HIV,188(26.63),231(21.59),419(19.72)
+4,I felt sick and I/my family thought it might be HIV related,206(29.18),268(25.05),474(22.31)
+5,"It was a requirement (e.g., for employment, visa/citizenship, incarceration, marriage)",6(0.85),8(0.75),14(0.66)
+6,I just wanted to know,128(18.13),186(17.38),314(14.78)
+7,Other reason,21(2.97),45(4.21),66(3.11)
+8,*,*,*,*
+1,secE_q23,secA_q2 _.Male,secA_q2 _.Female,Total
+2,6 months or less,412(58.36),597(55.79),1009(47.48)
+3,More than 6 months to 2 years,150(21.25),241(22.52),391(18.4)
+4,More than 2 years,78(11.05),101(9.44),179(8.42)
+5,Don't know/can't remember,66(9.35),131(12.24),197(9.27)
+6,*,*,*,*
+1,secD_q26a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,13(54.17),21(56.76),34(1.6)
+3,No,11(45.83),16(43.24),27(1.27)
+4,*,*,*,*
+1,secD_q26b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,11(45.83),22(59.46),33(1.55)
+3,No,13(54.17),15(40.54),28(1.32)
+4,*,*,*,*
+1,secD_q26c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,12(50),17(45.95),29(1.36)
+3,No,12(50),20(54.05),32(1.51)
+4,*,*,*,*
+1,secD_q26d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,10(41.67),15(40.54),25(1.18)
+3,No,14(58.33),22(59.46),36(1.69)
+4,*,*,*,*
+1,secD_q26e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,8(33.33),9(24.32),17(0.8)
+3,No,16(66.67),28(75.68),44(2.07)
+4,*,*,*,*
+1,secE_q28,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Immediately—or same day I was diagnosed,357(43.48),518(41.67),875(41.18)
+3,1 day to 1 month (30 days) after being diagnosed,193(23.51),274(22.04),467(21.98)
+4,1 month to 6 months after being diagnosed,131(15.96),179(14.4),310(14.59)
+5,6 months to 2 years after being diagnosed,55(6.7),111(8.93),166(7.81)
+6,2 years after being diagnosed,17(2.07),28(2.25),45(2.12)
+7,2+  years after being diagnosed,25(3.05),60(4.83),85(4)
+8,Can't remember,43(5.24),73(5.87),116(5.46)
+9,*,*,*,*
+1,secE_q30,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,593(72.23),911(73.29),1504(70.78)
+3,No; I have not had a viral load test in the last 12 months,44(5.36),52(4.18),96(4.52)
+4,No; I had a viral load test and am waiting for the results,82(9.99),122(9.81),204(9.6)
+5,"No, the virus was detectable/I am not virally suppressed",71(8.65),108(8.69),179(8.42)
+6,No – I have never had a viral load test,11(1.34),19(1.53),30(1.41)
+7,I don't know what viral load or viral suppression are,20(2.44),31(2.49),51(2.4)
+8,*,*,*,*
+1,Q_43a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,17(3.11),16(1.8),33(1.55)
+3,No,530(96.89),871(98.2),1401(65.93)
+4,*,*,*,*
+1,Q_43b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,8(1.46),22(2.48),30(1.41)
+3,No,539(98.54),865(97.52),1404(66.07)
+4,*,*,*,*
+1,Q_43c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,39(7.13),58(6.54),97(4.56)
+3,No,508(92.87),829(93.46),1337(62.92)
+4,*,*,*,*
+1,Q_43d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,76(13.89),109(12.29),185(8.71)
+3,No,471(86.11),778(87.71),1249(58.78)
+4,*,*,*,*
+1,Q_43e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,52(9.51),86(9.7),138(6.49)
+3,No,495(90.49),801(90.3),1296(60.99)
+4,*,*,*,*
+1,Q_43f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,20(3.66),28(3.16),48(2.26)
+3,No,527(96.34),859(96.84),1386(65.22)
+4,*,*,*,*
+1,Q_43g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,56(10.24),80(9.02),136(6.4)
+3,No,491(89.76),807(90.98),1298(61.08)
+4,*,*,*,*
+1,Q_43h,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,63(11.52),110(12.4),173(8.14)
+3,No,484(88.48),777(87.6),1261(59.34)
+4,*,*,*,*
+1,q_41a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,25(2.98),31(2.44),56(2.64)
+3,No,815(97.02),1241(97.56),2056(96.75)
+4,*,*,*,*
+1,q_41b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,59(7.02),97(7.63),156(7.34)
+3,No,781(92.98),1175(92.37),1956(92.05)
+4,*,*,*,*
+1,q_41c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,98(11.67),183(14.39),281(13.22)
+3,No,742(88.33),1089(85.61),1831(86.16)
+4,*,*,*,*
+1,q_41d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,73(8.69),142(11.16),215(10.12)
+3,No,767(91.31),1130(88.84),1897(89.27)
+4,*,*,*,*
+1,q_41e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,25(2.98),50(3.93),75(3.53)
+3,No,815(97.02),1222(96.07),2037(95.86)
+4,*,*,*,*
+1,q_41f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,87(10.36),127(9.98),214(10.07)
+3,No,753(89.64),1145(90.02),1898(89.32)
+4,*,*,*,*
+1,q_41g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,93(11.07),163(12.81),256(12.05)
+3,No,747(88.93),1109(87.19),1856(87.34)
+4,*,*,*,*
+1,Q_46a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,7(0.83),42(3.28),49(2.31)
+3,No,745(88.17),1063(83.05),1808(85.08)
+4,N/A,73(8.64),148(11.56),221(10.4)
+5,Prefer not to answer,20(2.37),27(2.11),47(2.21)
+6,*,*,*,*
+1,Q_46b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,2(0.24),10(0.78),12(0.56)
+3,No,757(89.59),1110(86.72),1867(87.86)
+4,N/A,72(8.52),135(10.55),207(9.74)
+5,Prefer not to answer,14(1.66),25(1.95),39(1.84)
+6,*,*,*,*
+1,Q_46c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,0(0),5(0.39),5(0.24)
+3,No,750(88.76),1104(86.25),1854(87.25)
+4,N/A,76(8.99),143(11.17),219(10.31)
+5,Prefer not to answer,19(2.25),28(2.19),47(2.21)
+6,*,*,*,*
+1,Q_46d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,0(0),12(0.94),12(0.56)
+3,No,675(79.88),1121(87.58),1796(84.52)
+4,N/A,124(14.67),125(9.77),249(11.72)
+5,Prefer not to answer,46(5.44),22(1.72),68(3.2)
+6,*,*,*,*
+1,Q_46e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,8(0.95),28(2.19),36(1.69)
+3,No,668(79.05),1102(86.09),1770(83.29)
+4,N/A,122(14.44),125(9.77),247(11.62)
+5,Prefer not to answer,47(5.56),25(1.95),72(3.39)
+6,*,*,*,*
+1,Q_47a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(NaN),13(1.02),13(0.61)
+3,"Yes, but not within the last 12 months",0(NaN),35(2.73),35(1.65)
+4,No,0(NaN),1026(80.16),1026(48.28)
+5,N/A,0(NaN),180(14.06),180(8.47)
+6,Prefer not to answer,0(NaN),26(2.03),26(1.22)
+7,*,*,*,*
+1,Q_47b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(NaN),37(2.89),37(1.74)
+3,"Yes, but not within the last 12 months",0(NaN),57(4.45),57(2.68)
+4,No,0(NaN),1023(79.92),1023(48.14)
+5,N/A,0(NaN),140(10.94),140(6.59)
+6,Prefer not to answer,0(NaN),23(1.8),23(1.08)
+7,*,*,*,*
+1,Q_47c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(NaN),30(2.34),30(1.41)
+3,"Yes, but not within the last 12 months",0(NaN),48(3.75),48(2.26)
+4,No,0(NaN),1004(78.44),1004(47.25)
+5,N/A,0(NaN),173(13.52),173(8.14)
+6,Prefer not to answer,0(NaN),25(1.95),25(1.18)
+7,*,*,*,*
+1,Q_47d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(NaN),52(4.06),52(2.45)
+3,"Yes, but not within the last 12 months",0(NaN),62(4.84),62(2.92)
+4,No,0(NaN),931(72.73),931(43.81)
+5,N/A,0(NaN),204(15.94),204(9.6)
+6,Prefer not to answer,0(NaN),31(2.42),31(1.46)
+7,*,*,*,*
+1,Q_47e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(NaN),59(4.61),59(2.78)
+3,"Yes, but not within the last 12 months",0(NaN),60(4.69),60(2.82)
+4,No,0(NaN),929(72.58),929(43.72)
+5,N/A,0(NaN),201(15.7),201(9.46)
+6,Prefer not to answer,0(NaN),31(2.42),31(1.46)
+7,*,*,*,*
+1,Q_48b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",14(1.66),21(1.64),35(1.65)
+3,"Yes, but NOT within the last 12 months",28(3.31),41(3.2),69(3.25)
+4,No,783(92.66),1184(92.5),1967(92.56)
+5,Prefer not to answer,20(2.37),34(2.66),54(2.54)
+6,*,*,*,*
+1,Q_48c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",16(1.89),13(1.02),29(1.36)
+3,"Yes, but NOT within the last 12 months",28(3.31),33(2.58),61(2.87)
+4,No,780(92.31),1185(92.58),1965(92.47)
+5,Prefer not to answer,21(2.49),49(3.83),70(3.29)
+6,*,*,*,*
+1,Q_48d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",25(2.96),34(2.66),59(2.78)
+3,"Yes, but NOT within the last 12 months",27(3.2),39(3.05),66(3.11)
+4,No,778(92.07),1188(92.81),1966(92.52)
+5,Prefer not to answer,15(1.78),19(1.48),34(1.6)
+6,*,*,*,*
+1,Q_48e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",13(1.54),18(1.41),31(1.46)
+3,"Yes, but NOT within the last 12 months",25(2.96),35(2.73),60(2.82)
+4,No,782(92.54),1201(93.83),1983(93.32)
+5,Prefer not to answer,25(2.96),26(2.03),51(2.4)
+6,*,*,*,*
+1,Q_48f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",10(1.18),12(0.94),22(1.04)
+3,"Yes, but NOT within the last 12 months",19(2.25),22(1.72),41(1.93)
+4,No,790(93.49),1218(95.16),2008(94.49)
+5,Prefer not to answer,26(3.08),28(2.19),54(2.54)
+6,*,*,*,*
+1,Q_48g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",8(0.95),9(0.7),17(0.8)
+3,"Yes, but NOT within the last 12 months",20(2.37),25(1.95),45(2.12)
+4,No,793(93.85),1217(95.08),2010(94.59)
+5,Prefer not to answer,24(2.84),29(2.27),53(2.49)
+6,*,*,*,*
+1,Q_48h,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",18(2.13),14(1.09),32(1.51)
+3,"Yes, but NOT within the last 12 months",22(2.6),27(2.11),49(2.31)
+4,No,770(91.12),1195(93.36),1965(92.47)
+5,Prefer not to answer,35(4.14),44(3.44),79(3.72)
+6,*,*,*,*
+1,Q_48i,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",14(1.66),12(0.94),26(1.22)
+3,"Yes, but NOT within the last 12 months",21(2.49),28(2.19),49(2.31)
+4,No,774(91.6),1197(93.52),1971(92.75)
+5,Prefer not to answer,36(4.26),43(3.36),79(3.72)
+6,*,*,*,*
+1,Q_48j,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",10(1.18),16(1.25),26(1.22)
+3,"Yes, but NOT within the last 12 months",27(3.2),28(2.19),55(2.59)
+4,No,790(93.49),1208(94.38),1998(94.02)
+5,Prefer not to answer,18(2.13),28(2.19),46(2.16)
+6,*,*,*,*
+1,Q_48k,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",20(2.37),26(2.03),46(2.16)
+3,"Yes, but NOT within the last 12 months",22(2.6),31(2.42),53(2.49)
+4,No,788(93.25),1200(93.75),1988(93.55)
+5,Prefer not to answer,15(1.78),23(1.8),38(1.79)
+6,*,*,*,*
+1,Q_48l,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",9(1.07),15(1.17),24(1.13)
+3,"Yes, but NOT within the last 12 months",24(2.84),34(2.66),58(2.73)
+4,No,792(93.73),1201(93.83),1993(93.79)
+5,Prefer not to answer,20(2.37),30(2.34),50(2.35)
+6,*,*,*,*
+1,Q_48m,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",9(1.07),21(1.64),30(1.41)
+3,"Yes, but NOT within the last 12 months",25(2.96),34(2.66),59(2.78)
+4,No,783(92.66),1177(91.95),1960(92.24)
+5,Prefer not to answer,28(3.31),48(3.75),76(3.58)
+6,*,*,*,*
+1,Q_48a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",13(1.54),15(1.17),28(1.32)
+3,"Yes, but NOT within the last 12 months",30(3.55),36(2.81),66(3.11)
+4,No,786(93.02),1202(93.91),1988(93.55)
+5,Prefer not to answer,16(1.89),27(2.11),43(2.02)
+6,*,*,*,*
+1,Q_48d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",25(2.96),34(2.66),59(2.78)
+3,"Yes, but NOT within the last 12 months",27(3.2),39(3.05),66(3.11)
+4,No,778(92.07),1188(92.81),1966(92.52)
+5,Prefer not to answer,15(1.78),19(1.48),34(1.6)
+6,*,*,*,*
+1,Q49d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,I did not know where to go/how to take action,67(50),91(47.89),158(7.44)
+3,I had insufficient financial resources to take action,6(4.48),11(5.79),17(0.8)
+4,The process of addressing the problem appeared too complicated,12(8.96),17(8.95),29(1.36)
+5,I felt intimidated or scared to take action,7(5.22),17(8.95),24(1.13)
+6,Was worried taking action might lead people to learn about my HIV status,15(11.19),19(10),34(1.6)
+7,I was worried taking action might lead people to learn about my HIV status,6(4.48),12(6.32),18(0.85)
+8,No/little confidence that the outcome would be successful,3(2.24),2(1.05),5(0.24)
+9,I was worried taking action might lead people to learn that I am a man having sex with men/transgender person/person who,1(0.75),1(0.53),2(0.09)
+10,I was advised against taking action by someone else,1(0.75),3(1.58),4(0.19)
+11,I had no/little confidence that the outcome would be successful,3(2.24),3(1.58),6(0.28)
+12,There was a lack of evidence of the abuse,4(2.99),3(1.58),7(0.33)
+13,Others specify,9(6.72),11(5.79),20(0.94)
+14,*,*,*,*
+1,Q_51a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",259(30.65),428(33.44),687(32.33)
+3,"Yes, but NOT within the last 12 months",161(19.05),196(15.31),357(16.8)
+4,No,425(50.3),656(51.25),1081(50.87)
+5,*,*,*,*
+1,Q_51b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",291(34.44),472(36.88),763(35.91)
+3,"Yes, but NOT within the last 12 months",179(21.18),241(18.83),420(19.76)
+4,No,375(44.38),567(44.3),942(44.33)
+5,*,*,*,*
+1,Q_51c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",315(37.28),521(40.7),836(39.34)
+3,"Yes, but NOT within the last 12 months",170(20.12),220(17.19),390(18.35)
+4,No,360(42.6),539(42.11),899(42.31)
+5,*,*,*,*
+1,Q_51d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",239(28.28),394(30.78),633(29.79)
+3,"Yes, but NOT within the last 12 months",163(19.29),199(15.55),362(17.04)
+4,No,443(52.43),687(53.67),1130(53.18)
+5,*,*,*,*
+1,Q_51e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",177(20.95),274(21.41),451(21.22)
+3,"Yes, but NOT within the last 12 months",122(14.44),165(12.89),287(13.51)
+4,No,546(64.62),841(65.7),1387(65.27)
+5,*,*,*,*
+1,Q_51f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",113(13.37),174(13.59),287(13.51)
+3,"Yes, but NOT within the last 12 months",103(12.19),149(11.64),252(11.86)
+4,No,629(74.44),957(74.77),1586(74.64)
+5,*,*,*,*
+1,Q_51g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",59(6.98),98(7.66),157(7.39)
+3,"Yes, but NOT within the last 12 months",92(10.89),133(10.39),225(10.59)
+4,No,694(82.13),1049(81.95),1743(82.02)
+5,*,*,*,*
+1,Q_52a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",3(11.11),4(50),7(0.33)
+3,"Yes, but not in the last 12 months",9(33.33),1(12.5),10(0.47)
+4,No,13(48.15),3(37.5),16(0.75)
+5,Prefer not to answer,2(7.41),0(0),2(0.09)
+6,*,*,*,*
+1,Q_52b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),4(50),8(0.38)
+3,"Yes, but not in the last 12 months",9(33.33),1(12.5),10(0.47)
+4,No,11(40.74),3(37.5),14(0.66)
+5,Prefer not to answer,3(11.11),0(0),3(0.14)
+6,*,*,*,*
+1,Q_52c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),5(62.5),9(0.42)
+3,"Yes, but not in the last 12 months",6(22.22),0(0),6(0.28)
+4,No,15(55.56),3(37.5),18(0.85)
+5,Prefer not to answer,2(7.41),0(0),2(0.09)
+6,*,*,*,*
+1,Q_52d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),3(37.5),7(0.33)
+3,"Yes, but not in the last 12 months",5(18.52),2(25),7(0.33)
+4,No,16(59.26),3(37.5),19(0.89)
+5,Prefer not to answer,2(7.41),0(0),2(0.09)
+6,*,*,*,*
+1,Q_52e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",5(18.52),6(75),11(0.52)
+3,"Yes, but not in the last 12 months",6(22.22),0(0),6(0.28)
+4,No,14(51.85),2(25),16(0.75)
+5,Prefer not to answer,2(7.41),0(0),2(0.09)
+6,*,*,*,*
+1,Q_52f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",5(18.52),1(12.5),6(0.28)
+3,"Yes, but not in the last 12 months",6(22.22),1(12.5),7(0.33)
+4,No,14(51.85),5(62.5),19(0.89)
+5,Prefer not to answer,2(7.41),1(12.5),3(0.14)
+6,*,*,*,*
+1,Q_52g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",6(22.22),1(12.5),7(0.33)
+3,"Yes, but not in the last 12 months",5(18.52),1(12.5),6(0.28)
+4,No,12(44.44),6(75),18(0.85)
+5,Prefer not to answer,4(14.81),0(0),4(0.19)
+6,*,*,*,*
+1,Q_57a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",36(29.75),1(100),37(1.74)
+3,"Yes, but not in the last 12 months",22(18.18),0(0),22(1.04)
+4,No,55(45.45),0(0),55(2.59)
+5,Prefer not to answer,8(6.61),0(0),8(0.38)
+6,*,*,*,*
+1,Q_57b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",50(41.32),1(100),51(2.4)
+3,"Yes, but not in the last 12 months",22(18.18),0(0),22(1.04)
+4,No,44(36.36),0(0),44(2.07)
+5,Prefer not to answer,5(4.13),0(0),5(0.24)
+6,*,*,*,*
+1,Q_57c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",43(35.54),0(0),43(2.02)
+3,"Yes, but not in the last 12 months",16(13.22),0(0),16(0.75)
+4,No,58(47.93),0(0),58(2.73)
+5,Prefer not to answer,4(3.31),1(100),5(0.24)
+6,*,*,*,*
+1,Q_57d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",36(29.75),0(0),36(1.69)
+3,"Yes, but not in the last 12 months",15(12.4),1(100),16(0.75)
+4,No,65(53.72),0(0),65(3.06)
+5,Prefer not to answer,5(4.13),0(0),5(0.24)
+6,*,*,*,*
+1,Q_57e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",59(48.76),1(100),60(2.82)
+3,"Yes, but not in the last 12 months",17(14.05),0(0),17(0.8)
+4,No,40(33.06),0(0),40(1.88)
+5,Prefer not to answer,5(4.13),0(0),5(0.24)
+6,*,*,*,*
+1,Q_57f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",41(33.88),0(0),41(1.93)
+3,"Yes, but not in the last 12 months",11(9.09),0(0),11(0.52)
+4,No,64(52.89),1(100),65(3.06)
+5,Prefer not to answer,5(4.13),0(0),5(0.24)
+6,*,*,*,*
+1,Q_57g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",33(27.27),0(0),33(1.55)
+3,"Yes, but not in the last 12 months",11(9.09),0(0),11(0.52)
+4,No,71(58.68),1(100),72(3.39)
+5,Prefer not to answer,6(4.96),0(0),6(0.28)
+6,*,*,*,*
+1,Q_57a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",36(29.75),1(100),37(30.33)
+3,"Yes, but not in the last 12 months",22(18.18),0(0),22(18.03)
+4,No,55(45.45),0(0),55(45.08)
+5,Prefer not to answer,8(6.61),0(0),8(6.56)
+6,*,*,*,*
+1,Q_57b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",50(41.32),1(100),51(41.8)
+3,"Yes, but not in the last 12 months",22(18.18),0(0),22(18.03)
+4,No,44(36.36),0(0),44(36.07)
+5,Prefer not to answer,5(4.13),0(0),5(4.1)
+6,*,*,*,*
+1,Q_57c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",43(35.54),0(0),43(35.25)
+3,"Yes, but not in the last 12 months",16(13.22),0(0),16(13.11)
+4,No,58(47.93),0(0),58(47.54)
+5,Prefer not to answer,4(3.31),1(100),5(4.1)
+6,*,*,*,*
+1,Q_57d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",36(29.75),0(0),36(29.51)
+3,"Yes, but not in the last 12 months",15(12.4),1(100),16(13.11)
+4,No,65(53.72),0(0),65(53.28)
+5,Prefer not to answer,5(4.13),0(0),5(4.1)
+6,*,*,*,*
+1,Q_57e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",59(48.76),1(100),60(49.18)
+3,"Yes, but not in the last 12 months",17(14.05),0(0),17(13.93)
+4,No,40(33.06),0(0),40(32.79)
+5,Prefer not to answer,5(4.13),0(0),5(4.1)
+6,*,*,*,*
+1,Q_57f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",41(33.88),0(0),41(33.61)
+3,"Yes, but not in the last 12 months",11(9.09),0(0),11(9.02)
+4,No,64(52.89),1(100),65(53.28)
+5,Prefer not to answer,5(4.13),0(0),5(4.1)
+6,*,*,*,*
+1,Q_57g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",33(27.27),0(0),33(27.05)
+3,"Yes, but not in the last 12 months",11(9.09),0(0),11(9.02)
+4,No,71(58.68),1(100),72(59.02)
+5,Prefer not to answer,6(4.96),0(0),6(4.92)
+6,*,*,*,*
+1,Q_62a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(0),14(31.82),14(0.66)
+3,"Yes, but not in the last 12 months",0(0),4(9.09),4(0.19)
+4,No,1(100),22(50),23(1.08)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(0),14(31.82),14(0.66)
+3,"Yes, but not in the last 12 months",1(100),6(13.64),7(0.33)
+4,No,0(0),20(45.45),20(0.94)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(0),6(13.64),6(0.28)
+3,"Yes, but not in the last 12 months",1(100),6(13.64),7(0.33)
+4,No,0(0),28(63.64),28(1.32)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",1(100),6(13.64),7(0.33)
+3,"Yes, but not in the last 12 months",0(0),3(6.82),3(0.14)
+4,No,0(0),31(70.45),31(1.46)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",1(100),14(31.82),15(0.71)
+3,"Yes, but not in the last 12 months",0(0),6(13.64),6(0.28)
+4,No,0(0),20(45.45),20(0.94)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(0),8(18.18),8(0.38)
+3,"Yes, but not in the last 12 months",0(0),7(15.91),7(0.33)
+4,No,1(100),25(56.82),26(1.22)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_62g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",0(0),6(13.64),6(0.28)
+3,"Yes, but not in the last 12 months",0(0),4(9.09),4(0.19)
+4,No,1(100),30(68.18),31(1.46)
+5,Prefer not to answer,0(0),4(9.09),4(0.19)
+6,*,*,*,*
+1,Q_70a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",22(16.54),54(17.09),76(3.58)
+3,"Yes, but not in the last 12 months",19(14.29),78(24.68),97(4.56)
+4,No,81(60.9),171(54.11),252(11.86)
+5,Prefer not to answer,11(8.27),13(4.11),24(1.13)
+6,*,*,*,*
+1,Q_70b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),75(23.73),105(4.94)
+3,"Yes, but not in the last 12 months",24(18.05),82(25.95),106(4.99)
+4,No,69(51.88),149(47.15),218(10.26)
+5,Prefer not to answer,10(7.52),10(3.16),20(0.94)
+6,*,*,*,*
+1,Q_70c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",26(19.55),54(17.09),80(3.76)
+3,"Yes, but not in the last 12 months",12(9.02),51(16.14),63(2.96)
+4,No,86(64.66),202(63.92),288(13.55)
+5,Prefer not to answer,9(6.77),9(2.85),18(0.85)
+6,*,*,*,*
+1,Q_70d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",21(15.79),53(16.77),74(3.48)
+3,"Yes, but not in the last 12 months",18(13.53),49(15.51),67(3.15)
+4,No,85(63.91),204(64.56),289(13.6)
+5,Prefer not to answer,9(6.77),10(3.16),19(0.89)
+6,*,*,*,*
+1,Q_70e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",35(26.32),100(31.65),135(6.35)
+3,"Yes, but not in the last 12 months",16(12.03),66(20.89),82(3.86)
+4,No,75(56.39),139(43.99),214(10.07)
+5,Prefer not to answer,7(5.26),11(3.48),18(0.85)
+6,*,*,*,*
+1,Q_70f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",24(18.05),59(18.67),83(3.91)
+3,"Yes, but not in the last 12 months",16(12.03),51(16.14),67(3.15)
+4,No,84(63.16),196(62.03),280(13.18)
+5,Prefer not to answer,9(6.77),10(3.16),19(0.89)
+6,*,*,*,*
+1,Q_70g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),82(25.95),112(5.27)
+3,"Yes, but not in the last 12 months",11(8.27),51(16.14),62(2.92)
+4,No,84(63.16),173(54.75),257(12.09)
+5,Prefer not to answer,8(6.02),10(3.16),18(0.85)
+6,*,*,*,*
+1,Q_70a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",22(16.54),54(17.09),76(16.93)
+3,"Yes, but not in the last 12 months",19(14.29),78(24.68),97(21.6)
+4,No,81(60.9),171(54.11),252(56.12)
+5,Prefer not to answer,11(8.27),13(4.11),24(5.35)
+6,*,*,*,*
+1,Q_70b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),75(23.73),105(23.39)
+3,"Yes, but not in the last 12 months",24(18.05),82(25.95),106(23.61)
+4,No,69(51.88),149(47.15),218(48.55)
+5,Prefer not to answer,10(7.52),10(3.16),20(4.45)
+6,*,*,*,*
+1,Q_70c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",26(19.55),54(17.09),80(17.82)
+3,"Yes, but not in the last 12 months",12(9.02),51(16.14),63(14.03)
+4,No,86(64.66),202(63.92),288(64.14)
+5,Prefer not to answer,9(6.77),9(2.85),18(4.01)
+6,*,*,*,*
+1,Q_70d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",21(15.79),53(16.77),74(16.48)
+3,"Yes, but not in the last 12 months",18(13.53),49(15.51),67(14.92)
+4,No,85(63.91),204(64.56),289(64.37)
+5,Prefer not to answer,9(6.77),10(3.16),19(4.23)
+6,*,*,*,*
+1,Q_70e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",35(26.32),100(31.65),135(30.07)
+3,"Yes, but not in the last 12 months",16(12.03),66(20.89),82(18.26)
+4,No,75(56.39),139(43.99),214(47.66)
+5,Prefer not to answer,7(5.26),11(3.48),18(4.01)
+6,*,*,*,*
+1,Q_70f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",24(18.05),59(18.67),83(18.49)
+3,"Yes, but not in the last 12 months",16(12.03),51(16.14),67(14.92)
+4,No,84(63.16),196(62.03),280(62.36)
+5,Prefer not to answer,9(6.77),10(3.16),19(4.23)
+6,*,*,*,*
+1,Q_70g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),82(25.95),112(24.94)
+3,"Yes, but not in the last 12 months",11(8.27),51(16.14),62(13.81)
+4,No,84(63.16),173(54.75),257(57.24)
+5,Prefer not to answer,8(6.02),10(3.16),18(4.01)
+6,*,*,*,*
+1,Q_75a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",9(23.08),10(24.39),19(0.89)
+3,"Yes, but not in the last 12 months",17(43.59),18(43.9),35(1.65)
+4,No,13(33.33),13(31.71),26(1.22)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",10(25.64),13(31.71),23(1.08)
+3,"Yes, but not in the last 12 months",19(48.72),16(39.02),35(1.65)
+4,No,10(25.64),12(29.27),22(1.04)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",8(20.51),6(14.63),14(0.66)
+3,"Yes, but not in the last 12 months",9(23.08),5(12.2),14(0.66)
+4,No,22(56.41),30(73.17),52(2.45)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",8(20.51),6(14.63),14(0.66)
+3,"Yes, but not in the last 12 months",8(20.51),6(14.63),14(0.66)
+4,No,23(58.97),29(70.73),52(2.45)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",13(33.33),17(41.46),30(1.41)
+3,"Yes, but not in the last 12 months",16(41.03),12(29.27),28(1.32)
+4,No,10(25.64),12(29.27),22(1.04)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",8(20.51),8(19.51),16(0.75)
+3,"Yes, but not in the last 12 months",5(12.82),5(12.2),10(0.47)
+4,No,26(66.67),28(68.29),54(2.54)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q_75g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",8(20.51),7(17.07),15(0.71)
+3,"Yes, but not in the last 12 months",13(33.33),12(29.27),25(1.18)
+4,No,18(46.15),22(53.66),40(1.88)
+5,Prefer not to answer,0(0),0(0),0(0)
+6,*,*,*,*
+1,Q4_recode,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Less than 1 year,31(3.67),39(3.05),70(3.29)
+3,1-3 years,153(18.11),166(12.97),319(15.01)
+4,4-6 years,143(16.92),184(14.37),327(15.39)
+5,7-9 years,97(11.48),175(13.67),272(12.8)
+6,Above 10 years,382(45.21),660(51.56),1042(49.04)
+7,Cant remember,39(4.62),56(4.38),95(4.47)
+8,*,*,*,*
+1,secA_q5,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,633(74.91),819(63.98),1452(68.33)
+3,No,212(25.09),461(36.02),673(31.67)
+4,*,*,*,*
+1,Q7_recode,secA_q2 _.Male,secA_q2 _.Female,Total
+2,None,244(28.88),133(10.39),377(17.74)
+3,1-3 children,347(41.07),689(53.83),1036(48.75)
+4,4-6 children,196(23.2),388(30.31),584(27.48)
+5,7-9 children,48(5.68),61(4.77),109(5.13)
+6,More than 10 children,10(1.18),9(0.7),19(0.89)
+7,*,*,*,*
+1,q_36a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,85(10.06),108(8.44),193(9.08)
+3,No,760(89.94),1172(91.56),1932(90.92)
+4,*,*,*,*
+1,q_36b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,20(2.37),36(2.81),56(2.64)
+3,No,825(97.63),1244(97.19),2069(97.36)
+4,*,*,*,*
+1,q_36c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,125(14.79),158(12.34),283(13.32)
+3,No,720(85.21),1122(87.66),1842(86.68)
+4,*,*,*,*
+1,q_36d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,120(14.2),139(10.86),259(12.19)
+3,No,725(85.8),1141(89.14),1866(87.81)
+4,*,*,*,*
+1,q_36e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,99(11.72),154(12.03),253(11.91)
+3,No,746(88.28),1126(87.97),1872(88.09)
+4,*,*,*,*
+1,q_36f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,191(22.6),294(22.97),485(22.82)
+3,No,654(77.4),986(77.03),1640(77.18)
+4,*,*,*,*
+1,q_36g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,74(8.76),85(6.64),159(7.48)
+3,No,771(91.24),1195(93.36),1966(92.52)
+4,*,*,*,*
+1,secE_q21,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, it was my choice",632(74.79),957(74.77),1589(74.78)
+3,"Yes, but I was pressured by others",74(8.76),113(8.83),187(8.8)
+4,"No, I was tested without my knowledge and only found out after the test had been done",55(6.51),102(7.97),157(7.39)
+5,"No, I was forced to take an HIV test without my consent",13(1.54),31(2.42),44(2.07)
+6,"No, I was born with HIV or acquired HIV in infancy/childhood and was not aware I had been tested",71(8.4),77(6.02),148(6.96)
+7,*,*,*,*
+1,Q49d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,I did not know where to go/how to take action,67(50),91(47.89),158(7.44)
+3,I had insufficient financial resources to take action,6(4.48),11(5.79),17(0.8)
+4,The process of addressing the problem appeared too complicated,12(8.96),17(8.95),29(1.36)
+5,I felt intimidated or scared to take action,7(5.22),17(8.95),24(1.13)
+6,Was worried taking action might lead people to learn about my HIV status,15(11.19),19(10),34(1.6)
+7,I was worried taking action might lead people to learn about my HIV status,6(4.48),12(6.32),18(0.85)
+8,No/little confidence that the outcome would be successful,3(2.24),2(1.05),5(0.24)
+9,I was worried taking action might lead people to learn that I am a man having sex with men/transgender person/person who,1(0.75),1(0.53),2(0.09)
+10,I was advised against taking action by someone else,1(0.75),3(1.58),4(0.19)
+11,I had no/little confidence that the outcome would be successful,3(2.24),3(1.58),6(0.28)
+12,There was a lack of evidence of the abuse,4(2.99),3(1.58),7(0.33)
+13,Others specify,9(6.72),11(5.79),20(0.94)
+14,*,*,*,*
+1,Q49a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,38(4.5),84(6.56),122(5.74)
+3,No,134(15.86),190(14.84),324(15.25)
+4,N/A—I have not experienced any of the rights abuses mentioned in Q44 in the last 12 months,673(79.64),1006(78.59),1679(79.01)
+5,*,*,*,*
+1,Q49b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Filed a complaint,6(15.79),21(25),27(1.27)
+3,Contacted a lawyer,1(2.63),1(1.19),2(0.09)
+4,Contacted a government official or politician,3(7.89),4(4.76),7(0.33)
+5,Spoke out publicly,3(7.89),7(8.33),10(0.47)
+6,Contacted a community organization/network of persons living with HIV for support,23(60.53),32(38.1),55(2.59)
+7,Other,2(5.26),19(22.62),21(0.99)
+8,*,*,*,*
+1,Q49c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,The matter has been dealt with,16(42.11),40(47.62),56(2.64)
+3,The matter is still in the process of being dealt with,7(18.42),14(16.67),21(0.99)
+4,Nothing happened/the matter was not dealt with,15(39.47),30(35.71),45(2.12)
+5,*,*,*,*
+1,Q49d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,I did not know where to go/how to take action,67(50),91(47.89),158(48.77)
+3,I had insufficient financial resources to take action,6(4.48),11(5.79),17(5.25)
+4,The process of addressing the problem appeared too complicated,12(8.96),17(8.95),29(8.95)
+5,I felt intimidated or scared to take action,7(5.22),17(8.95),24(7.41)
+6,Was worried taking action might lead people to learn about my HIV status,15(11.19),19(10),34(10.49)
+7,I was worried taking action might lead people to learn about my HIV status,6(4.48),12(6.32),18(5.56)
+8,No/little confidence that the outcome would be successful,3(2.24),2(1.05),5(1.54)
+9,I was worried taking action might lead people to learn that I am a man having sex with men/transgender person/person who,1(0.75),1(0.53),2(0.62)
+10,I was advised against taking action by someone else,1(0.75),3(1.58),4(1.23)
+11,I had no/little confidence that the outcome would be successful,3(2.24),3(1.58),6(1.85)
+12,There was a lack of evidence of the abuse,4(2.99),3(1.58),7(2.16)
+13,Others specify,9(6.72),11(5.79),20(6.17)
+14,*,*,*,*
+1,Q50,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, there are laws",439(65.23),608(60.44),1047(323.15)
+3,"No, there are no laws",19(2.82),47(4.67),66(20.37)
+4,I do not know if there are laws,215(31.95),351(34.89),566(174.69)
+5,*,*,*,*
+1,Q50,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, there are laws",439(65.23),608(60.44),1047(49.27)
+3,"No, there are no laws",19(2.82),47(4.67),66(3.11)
+4,I do not know if there are laws,215(31.95),351(34.89),566(26.64)
+5,*,*,*,*
+1,Q49b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Filed a complaint,6(15.79),21(25),27(22.13)
+3,Contacted a lawyer,1(2.63),1(1.19),2(1.64)
+4,Contacted a government official or politician,3(7.89),4(4.76),7(5.74)
+5,Spoke out publicly,3(7.89),7(8.33),10(8.2)
+6,Contacted a community organization/network of persons living with HIV for support,23(60.53),32(38.1),55(45.08)
+7,Other,2(5.26),19(22.62),21(17.21)
+8,*,*,*,*
+1,Q49c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,The matter has been dealt with,16(42.11),40(47.62),56(12.56)
+3,The matter is still in the process of being dealt with,7(18.42),14(16.67),21(4.71)
+4,Nothing happened/the matter was not dealt with,15(39.47),30(35.71),45(10.09)
+5,*,*,*,*
+1,secA_q3,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Female,19(2.25),1261(98.52),1280(287)
+3,Male,812(96.09),2(0.16),814(182.51)
+4,Transgender,8(0.95),6(0.47),14(3.14)
+5,"Do not identify as female, male, or transgender",1(0.12),9(0.7),10(2.24)
+6,Prefer not to answer,5(0.59),2(0.16),7(1.57)
+7,*,*,*,*
+1,secA_q3,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Female,19(2.25),1261(98.52),1280(60.24)
+3,Male,812(96.09),2(0.16),814(38.31)
+4,Transgender,8(0.95),6(0.47),14(0.66)
+5,"Do not identify as female, male, or transgender",1(0.12),9(0.7),10(0.47)
+6,Prefer not to answer,5(0.59),2(0.16),7(0.33)
+7,*,*,*,*
+1,Q49a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,Yes,38(4.5),84(6.56),122(27.35)
+3,No,134(15.86),190(14.84),324(72.65)
+4,N/A—I have not experienced any of the rights abuses mentioned in Q44 in the last 12 months,673(79.64),1006(78.59),1679(376.46)
+5,*,*,*,*
+1,Q_52a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",3(11.11),4(50),7(20)
+3,"Yes, but not in the last 12 months",9(33.33),1(12.5),10(28.57)
+4,No,13(48.15),3(37.5),16(45.71)
+5,Prefer not to answer,2(7.41),0(0),2(5.71)
+6,*,*,*,*
+1,Q_52b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),4(50),8(22.86)
+3,"Yes, but not in the last 12 months",9(33.33),1(12.5),10(28.57)
+4,No,11(40.74),3(37.5),14(40)
+5,Prefer not to answer,3(11.11),0(0),3(8.57)
+6,*,*,*,*
+1,Q_52c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),5(62.5),9(25.71)
+3,"Yes, but not in the last 12 months",6(22.22),0(0),6(17.14)
+4,No,15(55.56),3(37.5),18(51.43)
+5,Prefer not to answer,2(7.41),0(0),2(5.71)
+6,*,*,*,*
+1,Q_52d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(14.81),3(37.5),7(20)
+3,"Yes, but not in the last 12 months",5(18.52),2(25),7(20)
+4,No,16(59.26),3(37.5),19(54.29)
+5,Prefer not to answer,2(7.41),0(0),2(5.71)
+6,*,*,*,*
+1,Q_52e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",5(18.52),6(75),11(31.43)
+3,"Yes, but not in the last 12 months",6(22.22),0(0),6(17.14)
+4,No,14(51.85),2(25),16(45.71)
+5,Prefer not to answer,2(7.41),0(0),2(5.71)
+6,*,*,*,*
+1,Q_52f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",5(18.52),1(12.5),6(17.14)
+3,"Yes, but not in the last 12 months",6(22.22),1(12.5),7(20)
+4,No,14(51.85),5(62.5),19(54.29)
+5,Prefer not to answer,2(7.41),1(12.5),3(8.57)
+6,*,*,*,*
+1,Q_52g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",6(22.22),1(12.5),7(20)
+3,"Yes, but not in the last 12 months",5(18.52),1(12.5),6(17.14)
+4,No,12(44.44),6(75),18(51.43)
+5,Prefer not to answer,4(14.81),0(0),4(11.43)
+6,*,*,*,*
+1,Q_65a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",3(9.38),3(12.5),6(10.71)
+3,"Yes, but not in the last 12 months",7(21.88),1(4.17),8(14.29)
+4,No,22(68.75),19(79.17),41(73.21)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",4(12.5),3(12.5),7(12.5)
+3,"Yes, but not in the last 12 months",10(31.25),2(8.33),12(21.43)
+4,No,18(56.25),18(75),36(64.29)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",2(6.25),1(4.17),3(5.36)
+3,"Yes, but not in the last 12 months",2(6.25),0(0),2(3.57)
+4,No,28(87.5),22(91.67),50(89.29)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",3(9.38),1(4.17),4(7.14)
+3,"Yes, but not in the last 12 months",1(3.12),0(0),1(1.79)
+4,No,28(87.5),22(91.67),50(89.29)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",2(6.25),4(16.67),6(10.71)
+3,"Yes, but not in the last 12 months",3(9.38),2(8.33),5(8.93)
+4,No,27(84.38),17(70.83),44(78.57)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",2(6.25),1(4.17),3(5.36)
+3,"Yes, but not in the last 12 months",1(3.12),1(4.17),2(3.57)
+4,No,29(90.62),21(87.5),50(89.29)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_65g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",1(3.12),3(12.5),4(7.14)
+3,"Yes, but not in the last 12 months",1(3.12),0(0),1(1.79)
+4,No,30(93.75),20(83.33),50(89.29)
+5,Prefer not to answer,0(0),1(4.17),1(1.79)
+6,*,*,*,*
+1,Q_70b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),75(23.73),105(23.39)
+3,"Yes, but not in the last 12 months",24(18.05),82(25.95),106(23.61)
+4,No,69(51.88),149(47.15),218(48.55)
+5,Prefer not to answer,10(7.52),10(3.16),20(4.45)
+6,*,*,*,*
+1,Q_70c,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",26(19.55),54(17.09),80(17.82)
+3,"Yes, but not in the last 12 months",12(9.02),51(16.14),63(14.03)
+4,No,86(64.66),202(63.92),288(64.14)
+5,Prefer not to answer,9(6.77),9(2.85),18(4.01)
+6,*,*,*,*
+1,Q_70d,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",21(15.79),53(16.77),74(16.48)
+3,"Yes, but not in the last 12 months",18(13.53),49(15.51),67(14.92)
+4,No,85(63.91),204(64.56),289(64.37)
+5,Prefer not to answer,9(6.77),10(3.16),19(4.23)
+6,*,*,*,*
+1,Q_70e,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",35(26.32),100(31.65),135(30.07)
+3,"Yes, but not in the last 12 months",16(12.03),66(20.89),82(18.26)
+4,No,75(56.39),139(43.99),214(47.66)
+5,Prefer not to answer,7(5.26),11(3.48),18(4.01)
+6,*,*,*,*
+1,Q_70f,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",24(18.05),59(18.67),83(18.49)
+3,"Yes, but not in the last 12 months",16(12.03),51(16.14),67(14.92)
+4,No,84(63.16),196(62.03),280(62.36)
+5,Prefer not to answer,9(6.77),10(3.16),19(4.23)
+6,*,*,*,*
+1,Q_70g,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",30(22.56),82(25.95),112(24.94)
+3,"Yes, but not in the last 12 months",11(8.27),51(16.14),62(13.81)
+4,No,84(63.16),173(54.75),257(57.24)
+5,Prefer not to answer,8(6.02),10(3.16),18(4.01)
+6,*,*,*,*
+1,Q_70a,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",22(16.54),54(17.09),76(16.93)
+3,"Yes, but not in the last 12 months",19(14.29),78(24.68),97(21.6)
+4,No,81(60.9),171(54.11),252(56.12)
+5,Prefer not to answer,11(8.27),13(4.11),24(5.35)
+6,*,*,*,*
+1,secC_q16b,secA_q2 _.Male,secA_q2 _.Female,Total
+2,"Yes, within the last 12 months",46(5.44),67(5.23),113(5.32)
+3,"Yes, but not in the last 12 months",64(7.57),113(8.83),177(8.33)
+4,No,701(82.96),1054(82.34),1755(82.59)
+5,N/A,34(4.02),46(3.59),80(3.76)
+6,*,*,*,*
