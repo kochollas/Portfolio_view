@@ -6,4 +6,7 @@
 
 3. Table View of market report : Built using metabase data source is mysql report database
 
+4. This is a simple dashboard implemented using R shiny to enable dog lovers compare different dog breeds in
+terms of numeric features. **CHECK IT:** <https://dataseniors.shinyapps.io/dogBreeds/>
+
 

@@ -1,0 +1,47 @@
+---
+title: "Dog Breeds mini dashboard"
+author: "Michael K'Ochola"
+date: "March 10, 2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+breed_traits <- read.csv("breed_traits.csv")
+```
+
+## Dashboard Development Overview
+This is a simple dashboard implemented using R shiny to enable dog lovers compare different dog breeds in terms of numeric features.
+
+### 1.0 Design process
+
+1. started with 3 mock-up sketches on how the UI/UX will appear and later picked one
+2. Started coding the UI. (dropdowns, buttons, textboxes etc)
+3. Completed the UI and worked on the server.R codebase to make the UI and back-end sync.
+4. Finalized by doing integration tests and temporary hosting
+
+#### **CHECK IT:** <https://dataseniors.shinyapps.io/dogBreeds/>
+
+### 2.0  A subset view of the data used
+```{r }
+print(head(breed_traits[3:4, c(2:4)]))
+```
+
+### 3.0 Packages used 
+
+1. **ggplot2**
+
+2. **reshape2**
+
+3. **dplyr**
+
+### 4.0 Hosting 
+
+The shiny apps can be hosted using AWS EC2 or Digital Ocean droplet.
+Alternatively for testing to avoid more costs one can use shinyapps.io
+
+
+### 5.0 Conclusion 
+
+You can clone the app and run it on your own. 
+**Thanks for reading for any query reach out @kochollamikes@gmail.com**
