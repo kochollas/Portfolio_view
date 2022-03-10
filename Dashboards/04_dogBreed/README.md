@@ -26,6 +26,5 @@ The shiny apps can be hosted using AWS EC2 or Digital Ocean droplet. Alternative
 more costs one can use shinyapps.io
 
 4. Conclusion
-You can clone the app and run it on your own. Thanks for reading for any query reach out @kochol-
-lamikes@gmail.com
+You can clone the app and run it on your own. Thanks for reading for any query reach out @kochollamikes@gmail.com
 
