@@ -13,3 +13,13 @@ This is a python data processing service written for an Australian client that g
 This is an R and Python service. The server of this is written in R to pull specific data points from mobile money(MPESA) monthly transaction statements and generate a test data which will be sent back to a python client by calling the R end-point. The python client is used to send the pdf and also perform machine learning prediction of amount to loan based on the underlying trained algorithm.
 Check here for complete replication : https://github.com/kochollas/Portfolio_view/tree/master/Model_deployment/loan_engine
 
+4. Processing raw text using REGEX and NLP
+
+This is a python script wrote for a client to help in processing raw text and generate the output csv with the right columns using Regular expressions and NLP. From the input raw text i was able to generate the final csv with the following columsn (text,bid_amount,type,pet_name,quality) Check it out.
+
+5. Stock_api_service
+
+This is a python service written to pull US stock data using polygon and process the same. It involved pullling historical data from 2007 to 2022 which made it generate millions of stock daily hourly and minute data. It also had a bit of threading to reduce processing time from 10min to a few seconds for a single stock detail in a year. It was managed in EC2 with 8 cores for faster processing. Error handling and Logging were implemented
+
+
+
