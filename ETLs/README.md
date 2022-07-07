@@ -21,5 +21,8 @@ This is a python script wrote for a client to help in processing raw text and ge
 
 This is a python service written to pull US stock data using polygon and process the same. It involved pullling historical data from 2007 to 2022 which made it generate millions of stock daily hourly and minute data. It also had a bit of threading to reduce processing time from 10min to a few seconds for a single stock detail in a year. It was managed in EC2 with 8 cores for faster processing. Error handling and Logging were implemented
 
+6. Bubble app data to BigQuery 
+
+This is a service to avail bubble data to bigQuery on transit to be used for dashboarding in Google data studio and metabase.
 
 
